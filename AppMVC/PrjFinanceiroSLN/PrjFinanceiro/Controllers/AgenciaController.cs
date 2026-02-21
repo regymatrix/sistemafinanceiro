@@ -16,6 +16,8 @@ namespace PrjFinanceiro.Controllers
         public IActionResult Index()
         {
             var lista = _context.Agencia.ToList();
+            ViewBag.nomesenai = "SENAI";
+            
             return View(lista); // Passa a lista para a View
         }
 
