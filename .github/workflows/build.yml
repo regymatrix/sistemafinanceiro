@@ -44,5 +44,5 @@ jobs:
         shell: powershell
         run: |
           ${{ runner.temp }}\scanner\dotnet-sonarscanner begin /k:"regymatrix_sistemafinanceiro" /o:"regymatrix" /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
-          dotnet build AppMVC/PrjFinanceiroSLN/PrjFinanceiro.sln
+          dotnet build "AppMVC/PrjFinanceiroSLN/PrjFinanceiroSLN.sln"
           ${{ runner.temp }}\scanner\dotnet-sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
