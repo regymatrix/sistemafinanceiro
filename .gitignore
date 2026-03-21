@@ -4,3 +4,16 @@
 /AppMVC/PrjFinanceiroSLN/PrjFinanceiro/obj
 /AppMVC/PrjFinanceiroSLN/.vs/PrjFinanceiroSLN/v17
 /AppMVC/PrjFinanceiroSLN/.vs/PrjFinanceiroSLN/v17
+/AppMVC/PrjFinanceiroSLN/.vs/PrjFinanceiroSLN
+/AppMVC/PrjFinanceiroSLN/.vs/PrjFinanceiroSLN
+/AppMVC/PrjFinanceiroSLN/.vs
+/AppMVC/PrjFinanceiroSLN/.vs/PrjFinanceiroSLN
+/AppMVC/PrjFinanceiroSLN/.vs
+*.dll
+*.exe
+*.cs
+*.cache
+*.json
+*.pdb
+*.Up2Date
+*.props
