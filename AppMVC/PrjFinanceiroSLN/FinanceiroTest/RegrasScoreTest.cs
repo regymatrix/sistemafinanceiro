@@ -24,5 +24,49 @@ namespace FinanceiroTest
             // Assert
             Assert.Equal(-30, resultado);
         }
+
+        [Fact]
+        public void RegraFidelidade_SCRetornaPositivo100()
+        {
+            var regra = new RegraFidelidade();
+            var cliente = new Cliente { Nome = "Lilian", FidelidadeUF = "SC" };
+
+            int resultado = regra.CalcularPontuacao(cliente, null);
+
+            Assert.Equal(100, resultado);
+        }
+
+        [Fact]
+        public void RegraFidelidade_SemEstadoRetorna0()
+        {
+            var regra = new RegraFidelidade();
+            var cliente = new Cliente { Nome = "Lilian"};
+
+            int resultado = regra.CalcularPontuacao(cliente, null);
+
+            Assert.Equal(0, resultado);
+        }
+
+        [Fact]
+        public void RegraFidelidade_EstadoDiferenteRetorna0()
+        {
+            var regra = new RegraFidelidade();
+            var cliente = new Cliente { Nome = "Lilian", FidelidadeUF = "SE"};
+
+            int resultado = regra.CalcularPontuacao(cliente, null);
+
+            Assert.Equal(0, resultado);
+        }
+
+
+        [Fact]
+        public void RegraFidelidade_ClienteVazioRetorna0()
+        {
+            var regra = new RegraFidelidade();
+
+            int resultado = regra.CalcularPontuacao(null, null);
+
+            Assert.Equal(0, resultado);
+        }
     }
 }
