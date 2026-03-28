@@ -24,5 +24,37 @@ namespace FinanceiroTest
             // Assert
             Assert.Equal(-30, resultado);
         }
+
+        [Fact]
+        public void RegraIncentivoNordeste_EstadoCerto_DeveRetornar_40Positivo()
+        {
+            var regra = new RegraIncentivoNordeste();
+            var cliente = new Cliente { Nome = "Guilherme", EstadoUF = "SE"};
+
+            int resultado = regra.CalcularPontuacao(cliente, null);
+
+            Assert.Equal(+40, resultado);
+        }
+
+        [Fact]
+        public void RegraIncentivoNordeste_EstadoDiferente_DeveRetornar_0()
+        {
+            var regra = new RegraIncentivoNordeste();
+            var cliente = new Cliente { Nome = "Guilherme", EstadoUF = "SC" };
+
+            int resultado = regra.CalcularPontuacao(cliente, null);
+
+            Assert.Equal(0, resultado);
+        }
+
+        [Fact]
+        public void RegraIncentivoNordeste_ClienteNulo_DeveRetornar_0()
+        {
+            var regra = new RegraIncentivoNordeste();
+
+            int resultado = regra.CalcularPontuacao(null, null);
+
+            Assert.Equal(0, resultado);
+        }
     }
 }
