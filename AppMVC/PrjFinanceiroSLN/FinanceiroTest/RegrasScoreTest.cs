@@ -23,6 +23,15 @@ namespace FinanceiroTest
 
             // Assert
             Assert.Equal(-30, resultado);
+
+        }
+        [Fact]
+        public void RegraRiscoFronteira_RSRetornaNegativo15()
+        {
+            var regra = new RegraRiscoFronteira();
+            var cliente = new Cliente { Nome = "Luiza", EstadoUF = "RS" };
+            int resultado = regra.CalcularPontuacao(cliente, null);
+            Assert.Equal(-15, resultado);
         }
     }
 }
