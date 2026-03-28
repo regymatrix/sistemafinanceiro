@@ -86,8 +86,6 @@ namespace FinanceiroTest
             Assert.Equal(0, resultado);
         }
 
-
-
         [Fact]
         public void RegraInadimplencia_EstadoDiferente_Retorna0()
         {
@@ -135,6 +133,15 @@ namespace FinanceiroTest
         public void RegraDensidadeSudeste_ClienteVazio_Retorna0()
         {
             var regra = new RegraDensidadeSudeste();
+             int resultado = regra.CalcularPontuacao(null, null);
+
+            Assert.Equal(0, resultado);
+        }
+
+        [Fact]
+        public void RegraIncentivoNordeste_ClienteNulo_DeveRetornar_0()
+        {
+            var regra = new RegraIncentivoNordeste();
 
             int resultado = regra.CalcularPontuacao(null, null);
 
