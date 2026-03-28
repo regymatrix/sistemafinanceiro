@@ -24,5 +24,41 @@ namespace FinanceiroTest
             // Assert
             Assert.Equal(-30, resultado);
         }
+
+        [Fact]
+        public void RegraDensidadeSudeste_SPRetornaPositivo50()
+        {
+            var regra = new RegraDensidadeSudeste();
+            var cliente = new Cliente { Nome = "Joao", EstadoSudeste = "SP" };
+            int resultado = regra.CalcularPontuacao(cliente, null);
+
+            Assert.Equal(+50, resultado);
+        }
+        [Fact]
+        public void RegraDensidadeSudeste_SemEstadoRetorna0()
+        {
+            var regra = new RegraDensidadeSudeste();
+            var cliente = new Cliente { Nome = "Joao" };
+            int resultado = regra.CalcularPontuacao(cliente, null);
+
+            Assert.Equal(0, resultado);
+        }
+        [Fact]
+        public void RegraDensidadeSudeste_EstadoDiferente_Retorna0()
+        {
+            var regra = new RegraDensidadeSudeste();
+            var cliente = new Cliente { Nome = "Joao", EstadoSudeste="SE" };
+            int resultado = regra.CalcularPontuacao(cliente, null);
+
+            Assert.Equal(0, resultado);
+        }
+        [Fact]
+        public void RegraDensidadeSudeste_ClienteVazio_Retorna0()
+        {
+            var regra = new RegraDensidadeSudeste();
+            int resultado = regra.CalcularPontuacao(null, null);
+
+            Assert.Equal(0, resultado);
+        }
     }
 }
