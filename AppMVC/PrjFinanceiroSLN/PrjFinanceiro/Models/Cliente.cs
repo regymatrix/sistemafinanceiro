@@ -7,5 +7,6 @@
         public string Nome { get; set; }
 
         public string EstadoUF { get; set; }
+        public string EstadoSudeste { get; set; }
     }
 }

@@ -24,5 +24,16 @@ namespace FinanceiroTest
             // Assert
             Assert.Equal(-30, resultado);
         }
+
+        [Fact]
+        public void RegraDensidadeSudeste_SemEstadoRetorna0()
+        {
+            var regra = new RegraDensidadeSudeste();
+            var cliente = new Cliente { Nome = "Sampa" };
+
+            int resultado = regra.CalcularPontuacao(cliente, null);
+
+            Assert.Equal(0, resultado);
+        }
     }
 }
