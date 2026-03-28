@@ -24,5 +24,49 @@ namespace FinanceiroTest
             // Assert
             Assert.Equal(-30, resultado);
         }
+
+        [Fact]
+        public void RegraInadimplencia_RJRetornaNegativo50()
+        {
+            var regra = new RegraInadimplenciaUF();
+            var cliente = new Cliente { Nome = "Fausto", EstadoUF = "RJ" };
+
+            int resultado = regra.CalcularPontuacao(cliente, null);
+
+            Assert.Equal(-50, resultado);
+        }
+
+        [Fact]
+        public void RegraInadimplencia_SemEstadoRetorna0()
+        {
+            var regra = new RegraInadimplenciaUF();
+            var cliente = new Cliente { Nome = "Fausto" };
+
+            int resultado = regra.CalcularPontuacao(cliente, null);
+
+            Assert.Equal(0, resultado);
+        }
+
+        [Fact]
+        public void RegraInadimplencia_EstadoDiferente_Retorna0()
+        {
+            var regra = new RegraInadimplenciaUF();
+            var cliente = new Cliente { Nome = "Fausto", EstadoUF="SE" };
+
+            int resultado = regra.CalcularPontuacao(cliente, null);
+
+            Assert.Equal(0, resultado);
+        }
+
+
+        [Fact]
+        public void RegraInadimplencia_ClienteVazio_Retorna0()
+        {
+            var regra = new RegraInadimplenciaUF();
+           
+            int resultado = regra.CalcularPontuacao(null, null);
+
+            Assert.Equal(0, resultado);
+        }
     }
 }
