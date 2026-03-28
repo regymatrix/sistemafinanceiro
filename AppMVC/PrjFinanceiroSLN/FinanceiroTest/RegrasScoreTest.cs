@@ -49,7 +49,7 @@ namespace FinanceiroTest
         public void RegraFidelidade_SCRetornaPositivo100()
         {
             var regra = new RegraFidelidade();
-            var cliente = new Cliente { Nome = "Lara", FidelidadeUF = "SC" };
+            var cliente = new Cliente { Nome = "Lara", EstadoUF = "SC" };
 
             int resultado = regra.CalcularPontuacao(cliente, null);
 
