@@ -1,6 +1,4 @@
-﻿using PrjFinanceiro.Models;
-
-namespace PrjFinanceiro.Services
+﻿namespace PrjFinanceiro.Models
 {
     public class RegraSaldoMinimo : IRegraEscore
     {

@@ -2,7 +2,6 @@
 {
     public interface IEmprestimoService
     {
-        decimal CalcularJurosSimples(decimal valor,  double taxa);
-
+        public decimal CalcularJurosSimples(decimal valor, double taxa);
     }
 }

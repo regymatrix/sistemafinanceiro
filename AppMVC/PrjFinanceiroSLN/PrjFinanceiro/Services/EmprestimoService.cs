@@ -4,7 +4,7 @@
     {
         public decimal CalcularJurosSimples(decimal valor, double taxa)
         {
-            return (valor* (decimal) taxa );
+            return (valor * (decimal) taxa);
         }
     }
 }
