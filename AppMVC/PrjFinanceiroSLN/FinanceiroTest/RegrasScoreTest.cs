@@ -142,9 +142,28 @@ namespace FinanceiroTest
         public void RegraIncentivoNordeste_ClienteNulo_DeveRetornar_0()
         {
             var regra = new RegraIncentivoNordeste();
-
             int resultado = regra.CalcularPontuacao(null, null);
 
+            Assert.Equal(0, resultado);
+        }
+
+        [Fact]
+        public void RegraContaNegativa_SaldoMenorQue0_DeveRetornar_Menos200Pontos()
+        {
+            var cliente = new Cliente();
+            var conta = new ContaBancaria { Saldo = -1 };
+            var regra = new RegraContaNegativa();
+            int resultado = regra.CalcularPontuacao(cliente, conta);
+            Assert.Equal(-200, resultado);
+        }
+
+        [Fact]
+        public void RegraContaNegativa_SaldoMaiorQue0_DeveRetornar_0Pontos()
+        {
+            var cliente = new Cliente();
+            var conta = new ContaBancaria { Saldo = 1 };
+            var regra = new RegraContaNegativa();
+            int resultado = regra.CalcularPontuacao(cliente, conta);
             Assert.Equal(0, resultado);
         }
     }
