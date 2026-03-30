@@ -150,15 +150,49 @@ namespace FinanceiroTest
             int resultado = regra.CalcularPontuacao(cliente, conta);
             Assert.Equal(+150, resultado);
         }
-        public void RegraContaNegativa_ClienteNegativo_DeveRetornar_Menos200()
+
+        [Fact]
+        public void RegraIncentivoCentroOeste_ClienteDeDF_DeveRetornar_60pontos()
         {
+            var cliente = new Cliente { EstadoUF = "DF" };
+            var banco = new ContaBancaria();
+            var regra = new RegraIncentivoCentroOeste();
+            int resultado = regra.CalcularPontuacao(cliente, banco);
 
-            var regra = new RegraContaNegativa();
-            var cliente = new Cliente { Nome = "Teste" };
-            var conta = new ContaBancaria { Saldo = 0m };
+            Assert.Equal(60, resultado);
+        }
 
-            int resultado = regra.CalcularPontuacao(cliente, conta);
-            Assert.Equal(+200, resultado);
+        [Fact]
+        public void RegraIncentivoCentroOeste_ClienteDeGO_DeveRetornar_60pontos()
+        {
+            var cliente = new Cliente { EstadoUF = "GO" };
+            var banco = new ContaBancaria();
+            var regra = new RegraIncentivoCentroOeste();
+            int resultado = regra.CalcularPontuacao(cliente, banco);
+
+            Assert.Equal(60, resultado);
+        }
+
+        [Fact]
+        public void RegraIncentivoCentroOeste_ClienteDeMT_DeveRetornar_60pontos()
+        {
+            var cliente = new Cliente { EstadoUF = "MT" };
+            var banco = new ContaBancaria();
+            var regra = new RegraIncentivoCentroOeste();
+            int resultado = regra.CalcularPontuacao(cliente, banco);
+
+            Assert.Equal(60, resultado);
+        }
+
+        [Fact]
+        public void RegraIncentivoCentroOeste_Cliente_DeveRetornar_0pontos()
+        {
+            var cliente = new Cliente { EstadoUF = "SE" };
+            var banco = new ContaBancaria();
+            var regra = new RegraIncentivoCentroOeste();
+            int resultado = regra.CalcularPontuacao(cliente, banco);
+
+            Assert.Equal(0, resultado);
         }
 
     }
