@@ -178,5 +178,59 @@ namespace FinanceiroTest
 
             Assert.Equal(0, resultado);
         }
+
+        [Fact]
+        public void RegraIncentivoCentro_Oeste_EstadoDF_Retorna60()
+        {
+            var regra = new RegraIncentivoCentro_Oeste();
+            var cliente = new Cliente { Nome = "Lili" , EstadoUF = "DF" };
+
+            int resultado = regra.CalcularPontuacao(cliente, null);
+
+            Assert.Equal(60, resultado);
+        }
+
+        [Fact]
+        public void RegraIncentivoCentro_Oeste_EstadoGO_Retorna60()
+        {
+            var regra = new RegraIncentivoCentro_Oeste();
+            var cliente = new Cliente { Nome = "Lili", EstadoUF = "GO" };
+
+            int resultado = regra.CalcularPontuacao(cliente, null);
+
+            Assert.Equal(60, resultado);
+        }
+
+        [Fact]
+        public void RegraIncentivoCentro_Oeste_EstadoMT_Retorna60()
+        {
+            var regra = new RegraIncentivoCentro_Oeste();
+            var cliente = new Cliente { Nome = "Lili", EstadoUF = "MT" };
+
+            int resultado = regra.CalcularPontuacao(cliente, null);
+
+            Assert.Equal(60, resultado);
+        }
+
+        [Fact]
+        public void RegraIncentivoCentro_Oeste_EstadoForaDaLista_Retorna60()
+        {
+            var regra = new RegraIncentivoCentro_Oeste();
+            var cliente = new Cliente { Nome = "Lili", EstadoUF = "SE" };
+
+            int resultado = regra.CalcularPontuacao(cliente, null);
+
+            Assert.Equal(0, resultado);
+        }
+
+        [Fact]
+        public void RegraIncentivoCentro_Oeste_ClienteNulo_Retorna0()
+        {
+            var regra = new RegraIncentivoCentro_Oeste();
+
+            int resultado = regra.CalcularPontuacao(null, null);
+
+            Assert.Equal(0, resultado);
+        }
     }
 }
