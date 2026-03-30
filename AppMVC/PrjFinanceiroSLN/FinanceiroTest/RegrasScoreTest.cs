@@ -42,7 +42,7 @@ namespace FinanceiroTest
         {
             var regra = new RegraInadimplenciaUF();
             var cliente = new Cliente { Nome = "Fausto" };
-             int resultado = regra.CalcularPontuacao(cliente, null);
+            int resultado = regra.CalcularPontuacao(cliente, null);
 
             Assert.Equal(0, resultado);
         }
@@ -90,7 +90,7 @@ namespace FinanceiroTest
         public void RegraInadimplencia_EstadoDiferente_Retorna0()
         {
             var regra = new RegraInadimplenciaUF();
-            var cliente = new Cliente { Nome = "Fausto", EstadoUF="SE" };
+            var cliente = new Cliente { Nome = "Fausto", EstadoUF = "SE" };
             int resultado = regra.CalcularPontuacao(cliente, null);
 
             Assert.Equal(0, resultado);
@@ -100,7 +100,7 @@ namespace FinanceiroTest
         public void RegraDensidadeSudeste_EstadoDiferente_Retorna0()
         {
             var regra = new RegraDensidadeSudeste();
-            var cliente = new Cliente { Nome = "Joao", EstadoSudeste="SE" };
+            var cliente = new Cliente { Nome = "Joao", EstadoSudeste = "SE" };
 
             int resultado = regra.CalcularPontuacao(cliente, null);
 
@@ -117,13 +117,13 @@ namespace FinanceiroTest
 
             Assert.Equal(0, resultado);
         }
-           
+
 
         [Fact]
         public void RegraFidelidade_EstadoDiferente_Retorna0()
         {
             var regra = new RegraFidelidade();
-            var cliente = new Cliente { Nome = "Joao", EstadoSudeste="SE" };
+            var cliente = new Cliente { Nome = "Joao", EstadoSudeste = "SE" };
             int resultado = regra.CalcularPontuacao(cliente, null);
 
             Assert.Equal(0, resultado);
@@ -133,7 +133,7 @@ namespace FinanceiroTest
         public void RegraDensidadeSudeste_ClienteVazio_Retorna0()
         {
             var regra = new RegraDensidadeSudeste();
-             int resultado = regra.CalcularPontuacao(null, null);
+            int resultado = regra.CalcularPontuacao(null, null);
 
             Assert.Equal(0, resultado);
         }
@@ -149,13 +149,23 @@ namespace FinanceiroTest
         }
         public void RegraSaldoSeguranca_Clientecom50000_DeveRetornar_150()
         {
-            
+
             var regra = new RegraSaldoSeguranca();
             var cliente = new Cliente { Nome = "Teste" };
-            var conta = new ContaBancaria { Saldo = 50000m }; 
+            var conta = new ContaBancaria { Saldo = 50000m };
 
             int resultado = regra.CalcularPontuacao(cliente, conta);
             Assert.Equal(+150, resultado);
+        }
+        [Fact]
+        public void RegraPerfilUniversitario_NomeComLTDA_RetornaMenos80()
+        {
+            var regra = new RegraPerfilUniversitario();
+            var cliente = new Cliente { Nome = "Empresa LTDA" };
+
+            int resultado = regra.CalcularPontuacao(cliente, null);
+
+            Assert.Equal(-80, resultado);
         }
     }
 }
