@@ -157,5 +157,35 @@ namespace FinanceiroTest
             int resultado = regra.CalcularPontuacao(cliente, conta);
             Assert.Equal(+150, resultado);
         }
+
+        [Fact]
+        public void RegraPerfilUniversitario_ContendoEIRELI_DeveRetornar_Menos80pontos()
+        {
+            Cliente cliente = new Cliente { Nome = "LeoEIRELI" };
+            ContaBancaria banco = new ContaBancaria();
+            var regra = new RegraPerfilUniversitario();
+            int resultado = regra.CalcularPontuacao(cliente, banco);
+            Assert.Equal(-80, resultado);
+        }
+
+        [Fact]
+        public void RegraPerfilUniversitario_ContendoLTDA_DeveRetornar_Menos80pontos()
+        {
+            Cliente cliente = new Cliente { Nome = "LeoLTDA" };
+            ContaBancaria banco = new ContaBancaria();
+            var regra = new RegraPerfilUniversitario();
+            int resultado = regra.CalcularPontuacao(cliente, banco);
+            Assert.Equal(-80, resultado);
+        }
+
+        [Fact]
+        public void RegraPerfilUniversitario_NaoContendoEIRELIouLTDA_DeveRetornar_0pontos()
+        {
+            Cliente cliente = new Cliente { Nome = "Leo" };
+            ContaBancaria banco = new ContaBancaria();
+            var regra = new RegraPerfilUniversitario();
+            int resultado = regra.CalcularPontuacao(cliente, banco);
+            Assert.Equal(0, resultado);
+        }
     }
 }
