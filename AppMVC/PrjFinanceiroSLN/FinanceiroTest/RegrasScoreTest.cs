@@ -141,6 +141,24 @@ namespace FinanceiroTest
             Assert.Equal(0, resultado);
         }
 
+        [Fact]
+        public void RegraPotencialDeInvestimento_SeForDobroDeEmprestimo_DeveRetornar_45Pontos()
+        {
+            var conta = new ContaBancaria { Saldo = 2100m };
+            var regra = new RegraPotencialDeInvestimento();           
+            int resultado = regra.CalcularPontuacao(null, conta);
 
+            Assert.Equal(45, resultado);
+        }
+        [Fact]
+        public void RegraPotencialDeInvestimento_DeveRetornar_0Pontos()
+        {
+            var conta = new ContaBancaria { Saldo = 1000m };
+            var regra = new RegraPotencialDeInvestimento();           
+            int resultado = regra.CalcularPontuacao(null, conta);
+
+            Assert.Equal(0, resultado);
+        }
+        
     }
 }
