@@ -157,5 +157,16 @@ namespace FinanceiroTest
             int resultado = regra.CalcularPontuacao(cliente, conta);
             Assert.Equal(+150, resultado);
         }
+        public void RegraContaNegativa_ClienteNegativo_DeveRetornar_Menos200()
+        {
+
+            var regra = new RegraContaNegativa();
+            var cliente = new Cliente { Nome = "Teste" };
+            var conta = new ContaBancaria { Saldo = 0m };
+
+            int resultado = regra.CalcularPontuacao(cliente, conta);
+            Assert.Equal(+200, resultado);
+        }
+
     }
 }
