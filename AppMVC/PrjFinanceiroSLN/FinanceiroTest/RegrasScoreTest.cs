@@ -213,7 +213,7 @@ namespace FinanceiroTest
         }
 
         [Fact]
-        public void RegraIncentivoCentro_Oeste_EstadoForaDaLista_Retorna60()
+        public void RegraIncentivoCentro_Oeste_EstadoForaDaLista_Retorna0()
         {
             var regra = new RegraIncentivoCentro_Oeste();
             var cliente = new Cliente { Nome = "Lili", EstadoUF = "SE" };
@@ -227,6 +227,60 @@ namespace FinanceiroTest
         public void RegraIncentivoCentro_Oeste_ClienteNulo_Retorna0()
         {
             var regra = new RegraIncentivoCentro_Oeste();
+
+            int resultado = regra.CalcularPontuacao(null, null);
+
+            Assert.Equal(0, resultado);
+        }
+
+        [Fact]
+        public void RegraRestricaoNorte_EstadoAM_RetornaMenos20()
+        {
+            var regra = new RegraRestricaoNorte();
+            var cliente = new Cliente { Nome = "Lili", EstadoUF = "AM" };
+
+            int resultado = regra.CalcularPontuacao(cliente, null);
+
+            Assert.Equal(-20, resultado);
+        }
+
+        [Fact]
+        public void RegraRestricaoNorte_EstadoRR_RetornaMenos20()
+        {
+            var regra = new RegraRestricaoNorte();
+            var cliente = new Cliente { Nome = "Lili", EstadoUF = "RR" };
+
+            int resultado = regra.CalcularPontuacao(cliente, null);
+
+            Assert.Equal(-20, resultado);
+        }
+
+        [Fact]
+        public void RegraRestricaoNorte_EstadoAP_RetornaMenos20()
+        {
+            var regra = new RegraRestricaoNorte();
+            var cliente = new Cliente { Nome = "Lili", EstadoUF = "AP" };
+
+            int resultado = regra.CalcularPontuacao(cliente, null);
+
+            Assert.Equal(-20, resultado);
+        }
+
+        [Fact]
+        public void RegraRestricaoNorte_EstadoForaDaLista_Retorna0()
+        {
+            var regra = new RegraRestricaoNorte();
+            var cliente = new Cliente { Nome = "Lili", EstadoUF = "SE" };
+
+            int resultado = regra.CalcularPontuacao(cliente, null);
+
+            Assert.Equal(0, resultado);
+        }
+
+        [Fact]
+        public void RegraRestricaoNorte_ClienteNulo_Retorna0()
+        {
+            var regra = new RegraRestricaoNorte();
 
             int resultado = regra.CalcularPontuacao(null, null);
 
