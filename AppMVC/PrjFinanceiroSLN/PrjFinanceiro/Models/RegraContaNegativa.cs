@@ -1,6 +1,6 @@
 ﻿namespace PrjFinanceiro.Models
 {
-    public class RegraContaNegativa
+    public class RegraContaNegativa : IRegraEscore
     {
             public int CalcularPontuacao(Cliente cliente, ContaBancaria conta)
             {
