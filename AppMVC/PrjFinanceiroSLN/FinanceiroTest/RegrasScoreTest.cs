@@ -31,7 +31,7 @@ namespace FinanceiroTest
         {
             var regra = new RegraInadimplenciaUF();
             var cliente = new Cliente { Nome = "Fausto", EstadoUF = "RJ" };
-
+           
             int resultado = regra.CalcularPontuacao(cliente, null);
 
             Assert.Equal(-50, resultado);
@@ -46,6 +46,7 @@ namespace FinanceiroTest
 
             Assert.Equal(0, resultado);
         }
+
         [Fact]
         public void RegraFidelidade_SCRetornaPositivo100()
         {
@@ -56,6 +57,7 @@ namespace FinanceiroTest
 
             Assert.Equal(100, resultado);
         }
+
         [Fact]
         public void RegraFidelidade_SemEstadoRetorna0()
         {
@@ -66,7 +68,7 @@ namespace FinanceiroTest
             Assert.Equal(0, resultado);
         }
 
-
+        [Fact]
         public void RegraDensidadeSudeste_SPRetornaPositivo50()
         {
             var regra = new RegraDensidadeSudeste();
@@ -75,12 +77,13 @@ namespace FinanceiroTest
 
             Assert.Equal(+50, resultado);
         }
+
         [Fact]
         public void RegraDensidadeSudeste_SemEstadoRetorna0()
         {
             var regra = new RegraDensidadeSudeste();
             var cliente = new Cliente { Nome = "Joao" };
-
+           
             int resultado = regra.CalcularPontuacao(cliente, null);
 
             Assert.Equal(0, resultado);
@@ -88,7 +91,7 @@ namespace FinanceiroTest
 
 
 
-        [Fact]
+       [Fact]
         public void RegraInadimplencia_EstadoDiferente_Retorna0()
         {
             var regra = new RegraInadimplenciaUF();
@@ -103,7 +106,7 @@ namespace FinanceiroTest
         {
             var regra = new RegraDensidadeSudeste();
             var cliente = new Cliente { Nome = "Joao", EstadoSudeste="SE" };
-
+           
             int resultado = regra.CalcularPontuacao(cliente, null);
 
             Assert.Equal(0, resultado);
@@ -119,7 +122,7 @@ namespace FinanceiroTest
 
             Assert.Equal(0, resultado);
         }
-           
+
 
         [Fact]
         public void RegraFidelidade_EstadoDiferente_Retorna0()
@@ -131,16 +134,55 @@ namespace FinanceiroTest
             Assert.Equal(0, resultado);
 
         }
+
         [Fact]
         public void RegraDensidadeSudeste_ClienteVazio_Retorna0()
         {
             var regra = new RegraDensidadeSudeste();
-
             int resultado = regra.CalcularPontuacao(null, null);
 
             Assert.Equal(0, resultado);
         }
 
+        [Fact]
+        public void RegraIncentivoCentroOeste_EstadoDF_Retorna60()
+		{
+			var regra = new RegraIncentivoCentroOeste();
+			var cliente = new Cliente { Nome = "Lara", EstadoUF = "DF" };
+			int resultado = regra.CalcularPontuacao(cliente, null);
 
-    }
+			Assert.Equal(60, resultado);
+		}
+
+		[Fact]
+		public void RegraIncentivoCentroOeste_EstadoGO_Retorna60()
+		{
+			var regra = new RegraIncentivoCentroOeste();
+			var cliente = new Cliente { Nome = "Lara", EstadoUF = "GO" };
+			int resultado = regra.CalcularPontuacao(cliente, null);
+
+			Assert.Equal(60, resultado);
+		}
+
+		[Fact]
+		public void RegraIncentivoCentroOeste_EstadoForaDaLista_Retorna0()
+		{
+			var regra = new RegraIncentivoCentroOeste();
+			var cliente = new Cliente { Nome = "lara", EstadoUF = "MT" };
+			int resultado = regra.CalcularPontuacao(cliente, null);
+
+			Assert.Equal(0, resultado);
+		}
+
+		[Fact]
+		public void RegraIncentivoCentroOeste_ClienteNulo_Retorna0()
+		{
+			var regra = new RegraIncentivoCentroOeste();
+			int resultado = regra.CalcularPontuacao(null, null);
+
+			Assert.Equal(0, resultado);
+		}
+
+
+	}
 }
