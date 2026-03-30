@@ -286,5 +286,38 @@ namespace FinanceiroTest
 
             Assert.Equal(0, resultado);
         }
+
+
+        [Fact]
+        public void RegraVIPLocal_EstadoSE_Retorna120()
+        {
+            var regra = new RegraVipLocal();
+            var cliente = new Cliente { Nome = "Lilian", EstadoUF = "SE" };
+
+            int resultado = regra.CalcularPontuacao(cliente, null);
+
+            Assert.Equal(120, resultado);
+        }
+
+        [Fact]
+        public void RegraVIPLocal_EstadoDiferente_Retorna0()
+        {
+            var regra = new RegraVipLocal();
+            var cliente = new Cliente { Nome = "Lilian", EstadoUF = "BA" };
+
+            int resultado = regra.CalcularPontuacao(cliente, null);
+
+            Assert.Equal(0, resultado);
+        }
+
+        [Fact]
+        public void RegraVIPLocal_ClienteNulo_Retorna0()
+        {
+            var regra = new RegraVipLocal();
+
+            int resultado = regra.CalcularPontuacao(null, null);
+
+            Assert.Equal(0, resultado);
+        }
     }
 }
