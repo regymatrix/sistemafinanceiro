@@ -319,5 +319,49 @@ namespace FinanceiroTest
 
             Assert.Equal(0, resultado);
         }
+
+        [Fact]
+        public void RegraSaldoEntrada_SaldoDentroDoIntervalo_Retorna30()
+        {
+            var regra = new RegraSaldoEntrada();
+            var conta = new ContaBancaria { Saldo = 3000 };
+
+            int resultado = regra.CalcularPontuacao(null, conta);
+
+            Assert.Equal(30, resultado);
+        }
+
+        [Fact]
+        public void RegraSaldoEntrada_SaldoIgual1000_Retorna30()
+        {
+            var regra = new RegraSaldoEntrada();
+            var conta = new ContaBancaria { Saldo = 1000 };
+
+            int resultado = regra.CalcularPontuacao(null, conta);
+
+            Assert.Equal(30, resultado);
+        }
+
+        [Fact]
+        public void RegraSaldoEntrada_SaldoIgual5000_Retorna30()
+        {
+            var regra = new RegraSaldoEntrada();
+            var conta = new ContaBancaria { Saldo = 5000 };
+
+            int resultado = regra.CalcularPontuacao(null, conta);
+
+            Assert.Equal(30, resultado);
+        }
+
+        [Fact]
+        public void RegraSaldoEntrada_SaldoForaDoIntervalo_Retorna0()
+        {
+            var regra = new RegraSaldoEntrada();
+            var conta = new ContaBancaria { Saldo = 900 };
+
+            int resultado = regra.CalcularPontuacao(null, conta);
+
+            Assert.Equal(0, resultado);
+        }
     }
 }
