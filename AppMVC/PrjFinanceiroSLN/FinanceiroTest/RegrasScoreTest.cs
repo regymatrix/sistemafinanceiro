@@ -147,5 +147,25 @@ namespace FinanceiroTest
 
             Assert.Equal(0, resultado);
         }
+
+        [Fact]
+        public void RegraContaNegativa_SaldoMenorQue0_DeveRetornar_200Negativo()
+        {
+            var regra = new RegraContaNegativa();
+            var cliente = new Cliente { Nome = "Joao" };
+            var contabancaria = new ContaBancaria { Saldo = -2 };
+            int resultado = regra.CalcularPontuacao(cliente, contabancaria);
+
+            Assert.Equal(-200, resultado);
+        }
+
+        [Fact]
+        public void RegraContaNegativa_ClienteESaldoNulo_DeveRetornar_0()
+        {
+            var regra = new RegraContaNegativa();
+            int resultado = regra.CalcularPontuacao(null, null);
+
+            Assert.Equal(0, resultado);
+        }
     }
 }

@@ -2,5 +2,13 @@
 {
     public class RegraContaNegativa
     {
+            public int CalcularPontuacao(Cliente cliente, ContaBancaria conta)
+            {
+                if (cliente is null) return 0;
+
+                if (conta.Saldo < 0) return -200;
+
+                return 0;
+            }
     }
 }
