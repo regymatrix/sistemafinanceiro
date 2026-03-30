@@ -147,5 +147,15 @@ namespace FinanceiroTest
 
             Assert.Equal(0, resultado);
         }
+        public void RegraSaldoSeguranca_Clientecom50000_DeveRetornar_150()
+        {
+            
+            var regra = new RegraSaldoSeguranca();
+            var cliente = new Cliente { Nome = "Teste" };
+            var conta = new ContaBancaria { Saldo = 50000m }; 
+
+            int resultado = regra.CalcularPontuacao(cliente, conta);
+            Assert.Equal(+150, resultado);
+        }
     }
 }
