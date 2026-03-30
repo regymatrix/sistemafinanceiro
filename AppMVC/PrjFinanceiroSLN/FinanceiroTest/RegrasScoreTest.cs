@@ -147,5 +147,15 @@ namespace FinanceiroTest
 
             Assert.Equal(0, resultado);
         }
+        public void RegraContaNegativa_DeveSubtrair200Pontos_QuandoSaldoForMenorQue0()
+        {
+            var regra = new RegraContaNegativa();
+            var cliente = new Cliente { Nome = "Teste" };
+            var conta = new ContaBancaria { Saldo = -10m };
+
+            int resultado = regra.CalcularPontuacao(cliente, conta);
+
+            Assert.Equal(-200, resultado);
+        }
     }
 }
