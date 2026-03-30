@@ -141,6 +141,26 @@ namespace FinanceiroTest
             Assert.Equal(0, resultado);
         }
 
+        [Fact]
+        public void RegraRestricaoNorte_ClienteNulo_DeveRetornar_0()
+        {
+            var regra = new RegraRestricaoNorte();
+
+            int resultado = regra.CalcularPontuacao(null, null);
+
+            Assert.Equal(0, resultado);
+        }
+
+        [Fact]
+        public void RegraRestricaoNorte_ClienteNorte_DeveRetornar_20Negativo()
+        {
+            var regra = new RegraRestricaoNorte();
+            var cliente = new Cliente { Nome = "Joao", EstadoUF = "RR" };
+            int resultado = regra.CalcularPontuacao(cliente, null);
+
+            Assert.Equal(-20, resultado);
+        }
+
 
     }
 }
