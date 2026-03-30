@@ -157,5 +157,25 @@ namespace FinanceiroTest
             int resultado = regra.CalcularPontuacao(cliente, conta);
             Assert.Equal(+150, resultado);
         }
+
+        [Fact]
+        public void RegraIncentivoCentroOeste_ClienteNulo_DeveRetornar_0()
+        {
+            var regra = new RegraIncentivoCentroOeste();
+
+            int resultado = regra.CalcularPontuacao(null, null);
+
+            Assert.Equal(0, resultado);
+        }
+
+        [Fact]
+        public void RegraIncentivoCentroOeste_ClienteCentroOeste_DeveRetornar_60Positivo()
+        {
+            var regra = new RegraIncentivoCentroOeste();
+            var cliente = new Cliente { Nome = "Joao", EstadoUF = "DF" };
+            int resultado = regra.CalcularPontuacao(cliente, null);
+
+            Assert.Equal(+60, resultado);
+        }
     }
 }
