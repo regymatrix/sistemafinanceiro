@@ -141,6 +141,14 @@ namespace FinanceiroTest
             Assert.Equal(0, resultado);
         }
 
+		[Fact]
+		public void Calcular_ClienteSergipano_DeveGanhar120Pontos()
+		{
+			var regra = new RegraVipLocal();
 
-    }
+			Assert.Equal(120, regra.CalcularPontuacao(new Cliente { EstadoUF = "SE" }, null));
+		}
+
+
+	}
 }
