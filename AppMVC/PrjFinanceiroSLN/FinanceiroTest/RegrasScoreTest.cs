@@ -140,7 +140,16 @@ namespace FinanceiroTest
 
             Assert.Equal(0, resultado);
         }
+		[Fact]
+		public void CalcularPontuacao_EstadoEstavel_Retorna25()
+		{
+			var regra = new RegraEstabilidade();
+			var cliente = new Cliente { EstadoUF = "MG" };
 
+			int resultado = regra.CalcularPontuacao(cliente, null);
 
-    }
+			Assert.Equal(25, resultado);
+		}
+
+	}
 }

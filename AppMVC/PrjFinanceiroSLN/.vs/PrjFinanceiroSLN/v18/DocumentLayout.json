@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lara Dantas\\OneDrive\\Documentos\\GitHub\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\lara dantas\\onedrive\\documentos\\github\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\regraestabilidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\models\\regraestabilidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{033433A0-91A7-4FB7-9B6D-4ACF2A174098}|FinanceiroTest\\FinanceiroTest.csproj|c:\\users\\lara dantas\\onedrive\\documentos\\github\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\financeirotest\\regrasscoretest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033433A0-91A7-4FB7-9B6D-4ACF2A174098}|FinanceiroTest\\FinanceiroTest.csproj|solutionrelative:financeirotest\\regrasscoretest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegrasScoreTest.cs",
+              "DocumentMoniker": "C:\\Users\\Lara Dantas\\OneDrive\\Documentos\\GitHub\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\FinanceiroTest\\RegrasScoreTest.cs",
+              "RelativeDocumentMoniker": "FinanceiroTest\\RegrasScoreTest.cs",
+              "ToolTip": "C:\\Users\\Lara Dantas\\OneDrive\\Documentos\\GitHub\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\FinanceiroTest\\RegrasScoreTest.cs",
+              "RelativeToolTip": "FinanceiroTest\\RegrasScoreTest.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAuwJsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T02:53:55.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:764764211:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegraEstabilidade.cs",
+              "DocumentMoniker": "C:\\Users\\Lara Dantas\\OneDrive\\Documentos\\GitHub\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\RegraEstabilidade.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\RegraEstabilidade.cs",
+              "ToolTip": "C:\\Users\\Lara Dantas\\OneDrive\\Documentos\\GitHub\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\RegraEstabilidade.cs",
+              "RelativeToolTip": "PrjFinanceiro\\Models\\RegraEstabilidade.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T02:49:09.083Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
