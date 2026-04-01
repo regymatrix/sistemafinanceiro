@@ -140,6 +140,27 @@ namespace FinanceiroTest
 
             Assert.Equal(0, resultado);
         }
+        [Fact]
+        public void RegraSaldoEntrada_Entre1000e5000_Retorna30()
+        {
+            var regra = new RegraSaldoDeEntrada();
+            var conta = new ContaBancaria { Saldo = 3000 };
+
+            int resultado = regra.CalcularPontuacao(null, conta);
+
+            Assert.Equal(30, resultado);
+        }
+
+        [Fact]
+        public void RegraSaldoEntrada_ForaDaFaixa_Retorna0()
+        {
+            var regra = new RegraSaldoDeEntrada();
+            var conta = new ContaBancaria { Saldo = 6000 };
+
+            int resultado = regra.CalcularPontuacao(null, conta);
+
+            Assert.Equal(0, resultado);
+        }
 
 
     }
