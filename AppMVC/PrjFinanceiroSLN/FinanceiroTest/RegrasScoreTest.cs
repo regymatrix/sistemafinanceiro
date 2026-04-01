@@ -140,7 +140,29 @@ namespace FinanceiroTest
 
             Assert.Equal(0, resultado);
         }
+        [Fact]
+        public void RegraPotencialInvestimento_SaldoMaiorQue2000_DeveRetornar45()
+        {
+            var regra = new RegraPotencialInvestimento();
+            var cliente = new Cliente();
+            var conta = new ContaBancaria { Saldo = 3000m };
 
+            int resultado = regra.CalcularPontuacao(cliente, conta);
+
+            Assert.Equal(45, resultado);
+        }
+
+        [Fact]
+        public void RegraPotencialInvestimento_SaldoMenorOuIgual2000_DeveRetornar0()
+        {
+            var regra = new RegraPotencialInvestimento();
+            var cliente = new Cliente();
+            var conta = new ContaBancaria { Saldo = 2000m };
+
+            int resultado = regra.CalcularPontuacao(cliente, conta);
+
+            Assert.Equal(0, resultado);
+        }
 
     }
 }
