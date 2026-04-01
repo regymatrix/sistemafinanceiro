@@ -9,5 +9,6 @@
         public string EstadoUF { get; set; }
 
         public string EstadoSudeste { get; set; }
+        public int Saldo { get; set; }
     }
 }

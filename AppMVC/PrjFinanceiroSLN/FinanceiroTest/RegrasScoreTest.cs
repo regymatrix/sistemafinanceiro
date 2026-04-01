@@ -42,7 +42,7 @@ namespace FinanceiroTest
         {
             var regra = new RegraInadimplenciaUF();
             var cliente = new Cliente { Nome = "Fausto" };
-             int resultado = regra.CalcularPontuacao(cliente, null);
+            int resultado = regra.CalcularPontuacao(cliente, null);
 
             Assert.Equal(0, resultado);
         }
@@ -92,7 +92,7 @@ namespace FinanceiroTest
         public void RegraInadimplencia_EstadoDiferente_Retorna0()
         {
             var regra = new RegraInadimplenciaUF();
-            var cliente = new Cliente { Nome = "Fausto", EstadoUF="SE" };
+            var cliente = new Cliente { Nome = "Fausto", EstadoUF = "SE" };
             int resultado = regra.CalcularPontuacao(cliente, null);
 
             Assert.Equal(0, resultado);
@@ -102,7 +102,7 @@ namespace FinanceiroTest
         public void RegraDensidadeSudeste_EstadoDiferente_Retorna0()
         {
             var regra = new RegraDensidadeSudeste();
-            var cliente = new Cliente { Nome = "Joao", EstadoSudeste="SE" };
+            var cliente = new Cliente { Nome = "Joao", EstadoSudeste = "SE" };
 
             int resultado = regra.CalcularPontuacao(cliente, null);
 
@@ -119,13 +119,13 @@ namespace FinanceiroTest
 
             Assert.Equal(0, resultado);
         }
-           
+
 
         [Fact]
         public void RegraFidelidade_EstadoDiferente_Retorna0()
         {
             var regra = new RegraFidelidade();
-            var cliente = new Cliente { Nome = "Joao", EstadoSudeste="SE" };
+            var cliente = new Cliente { Nome = "Joao", EstadoSudeste = "SE" };
             int resultado = regra.CalcularPontuacao(cliente, null);
 
             Assert.Equal(0, resultado);
@@ -141,6 +141,44 @@ namespace FinanceiroTest
             Assert.Equal(0, resultado);
         }
 
+        //// R15 ////
+        [Fact]
+        public void RegraPerfilUniversitario_NomeComLTDA_RetornaMenos80()
+        {
+            var regra = new RegraPerfilUniversitario();
+            var cliente = new Cliente { Nome = "Empresa LTDA" };
+            int resultado = regra.CalcularPontuacao(cliente, null);
 
+            Assert.Equal(-80, resultado);
+        }
+
+        [Fact]
+        public void RegraPerfilUniversitario_NomeComEIRELI_RetornaMenos80()
+        {
+            var regra = new RegraPerfilUniversitario();
+            var cliente = new Cliente { Nome = "Mercado EIRELI" };
+            int resultado = regra.CalcularPontuacao(cliente, null);
+
+            Assert.Equal(-80, resultado);
+        }
+
+        [Fact]
+        public void RegraPerfilUniversitario_NomePessoaFisica_Retorna0()
+        {
+            var regra = new RegraPerfilUniversitario();
+            var cliente = new Cliente { Nome = "Lara" };
+            int resultado = regra.CalcularPontuacao(cliente, null);
+
+            Assert.Equal(0, resultado);
+        }
+
+        [Fact]
+        public void RegraPerfilUniversitario_ClienteNulo_Retorna0()
+        {
+            var regra = new RegraPerfilUniversitario();
+            int resultado = regra.CalcularPontuacao(null, null);
+            Assert.Equal(0, resultado);
+        }
     }
 }
+
