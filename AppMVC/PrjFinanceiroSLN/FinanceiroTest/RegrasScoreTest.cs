@@ -140,7 +140,27 @@ namespace FinanceiroTest
 
             Assert.Equal(0, resultado);
         }
+        [Fact]
+        public void RegraVipLocal_SE_DeveRetornar120()
+        {
+            var regra = new RegraVipLocal();
+            var cliente = new Cliente { EstadoUF = "SE" };
 
+            int resultado = regra.CalcularPontuacao(cliente, null);
+
+            Assert.Equal(120, resultado);
+        }
+
+        [Fact]
+        public void RegraVipLocal_RJ_DeveRetornar0()
+        {
+            var regra = new RegraVipLocal();
+            var cliente = new Cliente { EstadoUF = "RJ" };
+
+            int resultado = regra.CalcularPontuacao(cliente, null);
+
+            Assert.Equal(0, resultado);
+        }
 
     }
 }
