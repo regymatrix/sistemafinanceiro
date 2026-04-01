@@ -6,7 +6,7 @@ namespace PrjFinanceiro.Models
     {
         public int CalcularPontuacao(Cliente cliente, ContaBancaria conta)
         {
-            if ( cliente is null || string.IsNullOrWhiteSpace(cliente.EstadoUF)) return 0;
+            if (cliente == null || cliente.EstadoUF == null) return 0;
             var estdos = new List<string> { "DF", "GO", "MT" };
 
             if (estdos.Contains(cliente.EstadoUF.ToUpper()))

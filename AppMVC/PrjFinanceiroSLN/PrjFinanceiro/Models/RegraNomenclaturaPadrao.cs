@@ -10,7 +10,7 @@ namespace PrjFinanceiro.Models
     {
         public int CalcularPontuacao(Cliente cliente, ContaBancaria conta)
         {
-            if (cliente is null || string.IsNullOrWhiteSpace(cliente.Nome)) return 0;
+            if (cliente == null || cliente.Nome == null) return 0;
 
             if (cliente.Nome.Trim().Length < 10)
             {
