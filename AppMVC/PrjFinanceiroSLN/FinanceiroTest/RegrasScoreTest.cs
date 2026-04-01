@@ -141,6 +141,16 @@ namespace FinanceiroTest
             Assert.Equal(0, resultado);
         }
 
+        /// R20 ///
+        [Fact]
+        public void RegraNomenclaturaPadrao_NomeCurto_RetornaNegativo40()
+        {
+            var regra = new RegraNomenclaturaPadrao();
+            var cliente = new Cliente { Nome = "Lanna" };
 
+            int resultado = regra.CalcularPontuacao(cliente, null);
+
+            Assert.Equal(-40, resultado);
+        }
     }
 }
