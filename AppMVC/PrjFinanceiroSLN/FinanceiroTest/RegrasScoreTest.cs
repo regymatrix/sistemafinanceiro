@@ -140,7 +140,27 @@ namespace FinanceiroTest
 
             Assert.Equal(0, resultado);
         }
+        [Fact]
+        public void RegraEstabilidade_MG_DeveRetornar25()
+        {
+            var regra = new RegraEstabilidade();
+            var cliente = new Cliente { EstadoUF = "MG" };
 
+            int resultado = regra.CalcularPontuacao(cliente, null);
+
+            Assert.Equal(25, resultado);
+        }
+
+        [Fact]
+        public void RegraEstabilidade_SP_DeveRetornar0()
+        {
+            var regra = new RegraEstabilidade();
+            var cliente = new Cliente { EstadoUF = "SP" };
+
+            int resultado = regra.CalcularPontuacao(cliente, null);
+
+            Assert.Equal(0, resultado);
+        }
 
     }
 }
