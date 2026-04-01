@@ -141,6 +141,15 @@ namespace FinanceiroTest
             Assert.Equal(0, resultado);
         }
 
+        /// R19 ///
+        [Fact]
+        public void Calcular_SaldoDentroDoRange_DeveGanhar30Pontos()
+        {
+            var regra = new RegraSaldoEntrada();
+            var conta = new ContaBancaria { Saldo = 2500 };
+
+            Assert.Equal(30, regra.CalcularPontuacao(null, conta));
+        }
 
     }
 }
