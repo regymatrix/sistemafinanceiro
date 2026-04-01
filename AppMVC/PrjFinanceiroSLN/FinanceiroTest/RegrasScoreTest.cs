@@ -140,7 +140,27 @@ namespace FinanceiroTest
 
             Assert.Equal(0, resultado);
         }
+        [Fact]
+        public void RegraNomenclaturaPadrao_NomeCurto_DeveRetornarMenos40()
+        {
+            var regra = new RegraNomenclaturaPadrao();
+            var cliente = new Cliente { Nome = "Ana" };
 
+            int resultado = regra.CalcularPontuacao(cliente, null);
+
+            Assert.Equal(-40, resultado);
+        }
+
+        [Fact]
+        public void RegraNomenclaturaPadrao_NomeCompleto_DeveRetornar0()
+        {
+            var regra = new RegraNomenclaturaPadrao();
+            var cliente = new Cliente { Nome = "Ana Carolina" };
+
+            int resultado = regra.CalcularPontuacao(cliente, null);
+
+            Assert.Equal(0, resultado);
+        }
 
     }
 }
