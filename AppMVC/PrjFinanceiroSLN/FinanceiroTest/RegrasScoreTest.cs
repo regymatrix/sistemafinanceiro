@@ -1,4 +1,5 @@
-﻿using PrjFinanceiro.Models;
+﻿using Microsoft.EntityFrameworkCore.SqlServer.Query.Internal;
+using PrjFinanceiro.Models;
 using PrjFinanceiro.Services;
 using System;
 using System.Collections.Generic;
@@ -390,6 +391,38 @@ namespace FinanceiroTest
         public void RegraNomenclaturaPadrao_ClienteNulo_Retorna0()
         {
             var regra = new RegraNomenclaturaPadrao();
+
+            int resultado = regra.CalcularPontuacao(null, null);
+
+            Assert.Equal(0, resultado);
+        }
+
+        [Fact]
+        public void RegraPotencialInvestimento_SaldoIgualA4000_Retorna45()
+        {
+            var regra = new RegraPotencialInvestimento();
+            var conta = new ContaBancaria { Saldo = 4000 };
+
+            int resultado = regra.CalcularPontuacao(null, conta);
+
+            Assert.Equal(45, resultado);
+        }
+
+        [Fact]
+        public void RegraPotencialInvestimento_SaldoDiferenteDe4000_Retorna0()
+        {
+            var regra = new RegraPotencialInvestimento();
+            var conta = new ContaBancaria { Saldo = 3000 };
+
+            int resultado = regra.CalcularPontuacao(null, conta);
+
+            Assert.Equal(0, resultado);
+        }
+
+        [Fact]
+        public void RegraPotencialInvestimento_ContaNula_Retorna45()
+        {
+            var regra = new RegraPotencialInvestimento();
 
             int resultado = regra.CalcularPontuacao(null, null);
 
