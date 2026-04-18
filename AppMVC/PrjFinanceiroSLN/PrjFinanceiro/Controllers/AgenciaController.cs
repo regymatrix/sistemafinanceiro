@@ -43,6 +43,7 @@ namespace PrjFinanceiro.Controllers
                 _context.Agencia.Add(novaAgencia);
                 _context.SaveChanges();
                 return RedirectToAction("Index");
+                
             }
 
             return View();
