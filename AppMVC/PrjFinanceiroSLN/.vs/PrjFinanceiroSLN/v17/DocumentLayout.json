@@ -1,65 +1,65 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\",
+  "WorkspaceRootPath": "E:\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\eliasprojetos\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\funcionario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\funcionario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\funcionario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\eliasprojetos\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\funcionario\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\funcionario\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\funcionario\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\eliasprojetos\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\eliasprojetos\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\eliasprojetos\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\eliasprojetos\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\funcionario\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\funcionario\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\funcionario\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\eliasprojetos\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\funcionario\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\funcionario\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\funcionario\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\eliasprojetos\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\agencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\agencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\models\\agencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\eliasprojetos\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\eliasprojetos\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\eliasprojetos\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\agenciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\agenciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\agenciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\eliasprojetos\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\eliasprojetos\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\agencia\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\agencia\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\agencia\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\eliasprojetos\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\eliasprojetos\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\prjfinanceiro.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\prjfinanceiro.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\prjfinanceiro.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -76,115 +76,107 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Editar.cshtml",
-              "DocumentMoniker": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Funcionario\\Editar.cshtml",
+              "DocumentMoniker": "E:\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Funcionario\\Editar.cshtml",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Funcionario\\Editar.cshtml",
-              "ToolTip": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Funcionario\\Editar.cshtml",
+              "ToolTip": "E:\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Funcionario\\Editar.cshtml",
               "RelativeToolTip": "PrjFinanceiro\\Views\\Funcionario\\Editar.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-18T14:01:06.753Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-18T14:01:06.753Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Criar.cshtml",
-              "DocumentMoniker": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Funcionario\\Criar.cshtml",
+              "DocumentMoniker": "E:\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Funcionario\\Criar.cshtml",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Funcionario\\Criar.cshtml",
-              "ToolTip": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Funcionario\\Criar.cshtml",
+              "ToolTip": "E:\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Funcionario\\Criar.cshtml",
               "RelativeToolTip": "PrjFinanceiro\\Views\\Funcionario\\Criar.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAcwBEAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-18T13:56:46.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-18T13:56:46.646Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Funcionario.cs",
-              "DocumentMoniker": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Funcionario.cs",
+              "DocumentMoniker": "E:\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Funcionario.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\Funcionario.cs",
-              "ToolTip": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Funcionario.cs",
+              "ToolTip": "E:\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Funcionario.cs",
               "RelativeToolTip": "PrjFinanceiro\\Models\\Funcionario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T13:34:22.428Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-18T13:34:22.428Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "FuncionarioController.cs",
-              "DocumentMoniker": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\FuncionarioController.cs",
+              "DocumentMoniker": "E:\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\FuncionarioController.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\FuncionarioController.cs",
-              "ToolTip": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\FuncionarioController.cs",
+              "ToolTip": "E:\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\FuncionarioController.cs",
               "RelativeToolTip": "PrjFinanceiro\\Controllers\\FuncionarioController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T13:32:46.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-18T13:32:46.361Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Program.cs",
+              "DocumentMoniker": "E:\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Program.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Program.cs",
-              "ToolTip": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Program.cs",
+              "ToolTip": "E:\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Program.cs",
               "RelativeToolTip": "PrjFinanceiro\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T09:08:49.414Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-07T09:08:49.414Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Agencia.cs",
-              "DocumentMoniker": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Agencia.cs",
+              "DocumentMoniker": "E:\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Agencia.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\Agencia.cs",
-              "ToolTip": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Agencia.cs",
+              "ToolTip": "E:\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Agencia.cs",
               "RelativeToolTip": "PrjFinanceiro\\Models\\Agencia.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T08:52:48.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-07T08:52:48.856Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\AppDbContext.cs",
+              "DocumentMoniker": "E:\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\AppDbContext.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\AppDbContext.cs",
-              "ToolTip": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\AppDbContext.cs",
+              "ToolTip": "E:\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\AppDbContext.cs",
               "RelativeToolTip": "PrjFinanceiro\\Models\\AppDbContext.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T08:56:49.762Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-07T08:56:49.762Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Excluir.cshtml",
-              "DocumentMoniker": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Funcionario\\Excluir.cshtml",
+              "DocumentMoniker": "E:\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Funcionario\\Excluir.cshtml",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Funcionario\\Excluir.cshtml",
-              "ToolTip": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Funcionario\\Excluir.cshtml",
+              "ToolTip": "E:\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Funcionario\\Excluir.cshtml",
               "RelativeToolTip": "PrjFinanceiro\\Views\\Funcionario\\Excluir.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-18T14:03:05.858Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-18T14:03:05.858Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Funcionario\\Index.cshtml",
+              "DocumentMoniker": "E:\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Funcionario\\Index.cshtml",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Funcionario\\Index.cshtml",
-              "ToolTip": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Funcionario\\Index.cshtml*",
-              "RelativeToolTip": "PrjFinanceiro\\Views\\Funcionario\\Index.cshtml*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAArAAAAAAAAAA==",
+              "ToolTip": "E:\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Funcionario\\Index.cshtml",
+              "RelativeToolTip": "PrjFinanceiro\\Views\\Funcionario\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwBgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-04-18T14:05:14.465Z",
               "EditorCaption": ""
@@ -193,35 +185,33 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "AgenciaController.cs",
-              "DocumentMoniker": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\AgenciaController.cs",
+              "DocumentMoniker": "E:\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\AgenciaController.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\AgenciaController.cs",
-              "ToolTip": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\AgenciaController.cs",
+              "ToolTip": "E:\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\AgenciaController.cs",
               "RelativeToolTip": "PrjFinanceiro\\Controllers\\AgenciaController.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAowEYAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T09:10:08.116Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-07T09:10:08.116Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "E:\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "PrjFinanceiro\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-18T14:00:47.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-18T14:00:47.313Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "E:\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\HomeController.cs",
-              "ToolTip": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\HomeController.cs",
               "RelativeToolTip": "PrjFinanceiro\\Controllers\\HomeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -231,9 +221,9 @@
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "PrjFinanceiro.csproj",
-              "DocumentMoniker": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\PrjFinanceiro.csproj",
+              "DocumentMoniker": "E:\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\PrjFinanceiro.csproj",
               "RelativeDocumentMoniker": "PrjFinanceiro\\PrjFinanceiro.csproj",
-              "ToolTip": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\PrjFinanceiro.csproj",
+              "ToolTip": "E:\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\PrjFinanceiro.csproj",
               "RelativeToolTip": "PrjFinanceiro\\PrjFinanceiro.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -243,9 +233,9 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Agencia\\Index.cshtml",
+              "DocumentMoniker": "E:\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Agencia\\Index.cshtml",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Agencia\\Index.cshtml",
-              "ToolTip": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Agencia\\Index.cshtml",
+              "ToolTip": "E:\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Agencia\\Index.cshtml",
               "RelativeToolTip": "PrjFinanceiro\\Views\\Agencia\\Index.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -255,14 +245,13 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\appsettings.json",
+              "DocumentMoniker": "E:\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\appsettings.json",
               "RelativeDocumentMoniker": "PrjFinanceiro\\appsettings.json",
-              "ToolTip": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\appsettings.json",
+              "ToolTip": "E:\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\appsettings.json",
               "RelativeToolTip": "PrjFinanceiro\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-07T08:48:49.658Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-07T08:48:49.658Z"
             }
           ]
         }
