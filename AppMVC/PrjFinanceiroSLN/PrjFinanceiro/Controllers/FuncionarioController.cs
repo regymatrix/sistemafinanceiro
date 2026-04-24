@@ -29,13 +29,13 @@ namespace PrjFinanceiro.Controllers
         }
 
         [HttpPost]
-        public IActionResult Criar(string nome, string cidade, string estadoUF, string data, string cpf, string telefone)
+        public IActionResult Criar(string nome, string cidade, string estadoUF, DateOnly data, string cpf, string telefone)
         {
             // Criamos o objeto manualmente com os dados que vieram do formulário
             var novoFuncionario = new Funcionario
             {
                 Nome = nome,
-                DataNascimento = Convert.ToDateTime(data),
+                DataNascimento = data,
                 Cidade = cidade,
                 EstadoUF = estadoUF,
                 CPF = cpf,
@@ -69,7 +69,7 @@ namespace PrjFinanceiro.Controllers
 
         // POST: Agencia/Editar
         [HttpPost]
-        public IActionResult Editar(int codigo, string nome, string cidade, string estadoUF, string data, string cpf, string telefone)
+        public IActionResult Editar(int codigo, string nome, string cidade, string estadoUF, DateOnly data, string cpf, string telefone)
         {
             // Busca o registro existente no banco
             var funcionarioNoBanco = _context.Funcionario.FirstOrDefault(a => a.Codigo == codigo);
@@ -78,7 +78,7 @@ namespace PrjFinanceiro.Controllers
             {
                 // Atualiza os atributos manualmente
                 funcionarioNoBanco.Nome = nome;
-                funcionarioNoBanco.DataNascimento = Convert.ToDateTime(data);
+                funcionarioNoBanco.DataNascimento = data;
                 funcionarioNoBanco.Cidade = cidade;
                 funcionarioNoBanco.EstadoUF = estadoUF;
                 funcionarioNoBanco.CPF = cpf;
