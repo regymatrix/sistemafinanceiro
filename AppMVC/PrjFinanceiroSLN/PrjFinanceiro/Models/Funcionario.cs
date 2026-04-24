@@ -9,7 +9,7 @@ namespace PrjFinanceiro.Models
         [Key]
         public int Codigo { get; set; }
         public string Nome { get; set; }
-        public DateOnly DataNascimento { get; set; }
+        public DateTime DataNascimento { get; set; }
         public string Cidade { get; set; }
         public string EstadoUF { get; set; }
         public string CPF { get; set; }
