@@ -113,6 +113,22 @@ namespace PrjFinanceiro.Controllers
             return RedirectToAction("Index");
         }
 
+        [HttpPost]
+        public IActionResult ExcluirConfirmadoModal(int codigo)
+        {
+            var agencia = _context.Agencia.FirstOrDefault(a => a.Codigo == codigo);
+
+            if (agencia != null)
+            {
+                _context.Agencia.Remove(agencia);
+                _context.SaveChanges();
+                return Json(new { success = true, message = "Excluído com sucesso!" });
+            }
+
+            return Json(new { success = false, message = "Erro ao excluir." });
+        }
+
+
 
 
     }
