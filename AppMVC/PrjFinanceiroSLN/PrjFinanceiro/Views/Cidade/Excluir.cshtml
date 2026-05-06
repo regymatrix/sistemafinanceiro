@@ -1,0 +1,31 @@
+﻿@model PrjFinanceiro.Models.Cidade
+
+<div class="container mt-5">
+    <div class="card border-danger">
+        <div class="card-header bg-danger text-white">
+            <h2>Excluir Cidade</h2>
+        </div>
+        <div class="card-body">
+            <h4 class="text-danger">Tem certeza que deseja excluir esta cidade?</h4>
+            <hr />
+
+            <dl class="row">
+                <dt class="col-sm-3">Nome da Cidade:</dt>
+                <dd class="col-sm-9">@Model.NomeCidade</dd>
+
+                <dt class="col-sm-3">Codigo do IBGE:</dt>
+                <dd class="col-sm-9">@Model.CodigoIBGE</dd>
+
+                <dt class="col-sm-3">Codigo do Estado:</dt>
+                <dd class="col-sm-9">@Model.CodigoEstado</dd>
+            </dl>
+
+            <form action="/Cidade/ExcluirConfirmado" method="post">
+                <input type="hidden" name="codigo" value="@Model.Codigo" />
+
+                <button type="submit" class="btn btn-danger">Sim, Excluir</button>
+                <a href="/Cidade/Index" class="btn btn-secondary">Cancelar</a>
+            </form>
+        </div>
+    </div>
+</div>
