@@ -2,13 +2,17 @@
 use dbFinanceiro
 go
 
-Create table Estado (
+CREATE TABLE Cidade (
+    Codigo INT IDENTITY(1,1) PRIMARY KEY,
+    NomeCidade VARCHAR(100) NOT NULL,
+    CodigoIBGE VARCHAR(7) NOT NULL,
+    CodigoEstado INT,
 
-Codigo int identity(1,1) primary key,
-NomeEstado varchar(100) not null,
-Sigla varchar(2) not null
-)
-
---INSERT Estado VALUES('Sergipe','SE')
-
-SELECT * FROM Estado
+    CONSTRAINT fk_Codigo_Estado
+    FOREIGN KEY (CodigoEstado) REFERENCES Estado(Codigo)
+);
+CREATE TABLE Bairro (
+    Codigo INT IDENTITY(1,1) PRIMARY KEY,
+    NomeBairro VARCHAR(100) NOT NULL,
+    CodigoCidade INT
+);
