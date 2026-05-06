@@ -11,4 +11,5 @@ namespace PrjFinanceiro.Models
         public string CodigoIBGE { get; set; }
         public int CodigoEstado { get; set; }
     }
+
 }
