@@ -4,18 +4,18 @@ using System.Linq;
 
 namespace PrjFinanceiro.Controllers
 {
-    public class AgenciaController : Controller
+    public class EstadoController : Controller
     {
         private readonly AppDbContext _context;
 
-        public AgenciaController(AppDbContext context)
+        public EstadoController(AppDbContext context)
         {
             _context = context;
         }
 
         public IActionResult Index()
         {
-            var lista = _context.Agencia.ToList();
+            var lista = _context.Estado.ToList();
             ViewBag.nomesenai = "SENAI";
             
             return View(lista); // Passa a lista para a View
@@ -30,19 +30,19 @@ namespace PrjFinanceiro.Controllers
         }
 
         [HttpPost]
-        public IActionResult Criar(string nome, string cidade, string estadoUF)
+        public IActionResult Criar(string NomeEstado, string sigla)
         {
             // Criamos o objeto manualmente com os dados que vieram do formulário
-            var novaAgencia = new Agencia
+            var novaEstado = new Estado
             {
-                Nome = nome,
-                Cidade = cidade,
-                EstadoUF = estadoUF
+                NomeEstado = NomeEstado,
+                Sigla = sigla
+                
             };
 
-            if (!string.IsNullOrEmpty(nome))
+            if (!string.IsNullOrEmpty(NomeEstado))
             {
-                _context.Agencia.Add(novaAgencia);
+                _context.Estado.Add(novaEstado);
                 _context.SaveChanges();
                 return RedirectToAction("Index");
             }
@@ -50,12 +50,12 @@ namespace PrjFinanceiro.Controllers
             return View();
         }
 
-        // GET: Agencia/Editar/5
+        // GET: Estado/Editar/5
         [HttpGet]
         public IActionResult Editar(int id)
         {
             // Busca a agência pelo código (ID)
-            var agencia = _context.Agencia.FirstOrDefault(a => a.Codigo == id);
+            var agencia = _context.Estado.FirstOrDefault(a => a.Codigo == id);
 
             if (agencia == null)
             {
@@ -65,19 +65,19 @@ namespace PrjFinanceiro.Controllers
             return View(agencia); // Passa o objeto para a View preencher os campos
         }
 
-        // POST: Agencia/Editar
+        // POST: Estado/Editar
         [HttpPost]
-        public IActionResult Editar(int codigo, string nome, string cidade, string estadoUF)
+        public IActionResult Editar(int codigo, string NomeEstado, string sigla)
         {
             // Busca o registro existente no banco
-            var agenciaNoBanco = _context.Agencia.FirstOrDefault(a => a.Codigo == codigo);
+            var  table = _context.Estado.FirstOrDefault(a => a.Codigo == codigo);
 
-            if (agenciaNoBanco != null)
+            if (table != null)
             {
                 // Atualiza os atributos manualmente
-                agenciaNoBanco.Nome = nome;
-                agenciaNoBanco.Cidade = cidade;
-                agenciaNoBanco.EstadoUF = estadoUF;
+                table.NomeEstado = NomeEstado;
+                table.Sigla = sigla;
+                
 
                 _context.SaveChanges();
                 return RedirectToAction("Index");
@@ -85,12 +85,12 @@ namespace PrjFinanceiro.Controllers
 
             return View();
         }
-        // GET: Agencia/Excluir/5
+        // GET: Estado/Excluir/5
         [HttpGet]
         public IActionResult Excluir(int id)
         {
             // Busca a agência para mostrar ao usuário o que ele está prestes a apagar
-            var agencia = _context.Agencia.FirstOrDefault(a => a.Codigo == id);
+            var agencia = _context.Estado.FirstOrDefault(a => a.Codigo == id);
 
             if (agencia == null)
             {
@@ -100,15 +100,15 @@ namespace PrjFinanceiro.Controllers
             return View(agencia);
         }
 
-        // POST: Agencia/ExcluirConfirmado
+        // POST: Estado/ExcluirConfirmado
         [HttpPost]
         public IActionResult ExcluirConfirmado(int codigo)
         {
-            var agencia = _context.Agencia.FirstOrDefault(a => a.Codigo == codigo);
+            var agencia = _context.Estado.FirstOrDefault(a => a.Codigo == codigo);
 
             if (agencia != null)
             {
-                _context.Agencia.Remove(agencia);
+                _context.Estado.Remove(agencia);
                 _context.SaveChanges();
             }
 
@@ -118,11 +118,11 @@ namespace PrjFinanceiro.Controllers
         [HttpPost]
         public IActionResult ExcluirConfirmadoModal(int codigo)
         {
-            var agencia = _context.Agencia.FirstOrDefault(a => a.Codigo == codigo);
+            var agencia = _context.Estado.FirstOrDefault(a => a.Codigo == codigo);
 
             if (agencia != null)
             {
-                _context.Agencia.Remove(agencia);
+                _context.Estado.Remove(agencia);
                 _context.SaveChanges();
                 return Json(new { success = true, message = "Excluído com sucesso!" });
             }
