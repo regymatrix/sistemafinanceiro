@@ -3,16 +3,44 @@
   "WorkspaceRootPath": "E:\\LANNA\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\lanna\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\lanna\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\cidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\models\\cidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\lanna\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\bairro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\models\\bairro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\lanna\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\lanna\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\agenciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\agenciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\lanna\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\lanna\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\cidade\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\cidade\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\lanna\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\lanna\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\bairro\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\bairro\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\lanna\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\bairro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\bairro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\lanna\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\bairro\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\bairro\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\lanna\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\bairro\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\bairro\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\lanna\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,8 +54,112 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 9,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Criar.cshtml",
+              "DocumentMoniker": "E:\\LANNA\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Cidade\\Criar.cshtml",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Cidade\\Criar.cshtml",
+              "ToolTip": "E:\\LANNA\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Cidade\\Criar.cshtml",
+              "RelativeToolTip": "PrjFinanceiro\\Views\\Cidade\\Criar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T18:05:41.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\LANNA\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Bairro\\Index.cshtml",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Bairro\\Index.cshtml",
+              "ToolTip": "E:\\LANNA\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Bairro\\Index.cshtml",
+              "RelativeToolTip": "PrjFinanceiro\\Views\\Bairro\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T17:42:02.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Criar.cshtml",
+              "DocumentMoniker": "E:\\LANNA\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Bairro\\Criar.cshtml",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Bairro\\Criar.cshtml",
+              "ToolTip": "E:\\LANNA\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Bairro\\Criar.cshtml",
+              "RelativeToolTip": "PrjFinanceiro\\Views\\Bairro\\Criar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T17:27:16.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AgenciaController.cs",
+              "DocumentMoniker": "E:\\LANNA\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\AgenciaController.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\AgenciaController.cs",
+              "ToolTip": "E:\\LANNA\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\AgenciaController.cs",
+              "RelativeToolTip": "PrjFinanceiro\\Controllers\\AgenciaController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAlwAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T17:03:34.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\LANNA\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\appsettings.json",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\appsettings.json",
+              "ToolTip": "E:\\LANNA\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\appsettings.json",
+              "RelativeToolTip": "PrjFinanceiro\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-24T17:04:04.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "E:\\LANNA\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Bairro\\Editar.cshtml",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Bairro\\Editar.cshtml",
+              "ToolTip": "E:\\LANNA\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Bairro\\Editar.cshtml",
+              "RelativeToolTip": "PrjFinanceiro\\Views\\Bairro\\Editar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T17:32:22.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Excluir.cshtml",
+              "DocumentMoniker": "E:\\LANNA\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Bairro\\Excluir.cshtml",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Bairro\\Excluir.cshtml",
+              "ToolTip": "E:\\LANNA\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Bairro\\Excluir.cshtml",
+              "RelativeToolTip": "PrjFinanceiro\\Views\\Bairro\\Excluir.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T17:37:50.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bairro.cs",
+              "DocumentMoniker": "E:\\LANNA\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Bairro.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\Bairro.cs",
+              "ToolTip": "E:\\LANNA\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Bairro.cs",
+              "RelativeToolTip": "PrjFinanceiro\\Models\\Bairro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T17:19:44.119Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -36,13 +168,27 @@
               "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\FuncionarioController.cs",
               "ToolTip": "E:\\LANNA\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\FuncionarioController.cs",
               "RelativeToolTip": "PrjFinanceiro\\Controllers\\FuncionarioController.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAMwFAAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwFAAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T17:05:06.381Z"
+              "WhenOpened": "2026-04-24T17:05:06.381Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Cidade.cs",
+              "DocumentMoniker": "E:\\LANNA\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Cidade.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\Cidade.cs",
+              "ToolTip": "E:\\LANNA\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Cidade.cs",
+              "RelativeToolTip": "PrjFinanceiro\\Models\\Cidade.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T17:19:47.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Funcionario.cs",
               "DocumentMoniker": "E:\\LANNA\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Funcionario.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\Funcionario.cs",
@@ -51,31 +197,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-24T17:04:52.069Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AgenciaController.cs",
-              "DocumentMoniker": "E:\\LANNA\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\AgenciaController.cs",
-              "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\AgenciaController.cs",
-              "ToolTip": "E:\\LANNA\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\AgenciaController.cs",
-              "RelativeToolTip": "PrjFinanceiro\\Controllers\\AgenciaController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAlwBEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T17:03:34.963Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\LANNA\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\appsettings.json",
-              "RelativeDocumentMoniker": "PrjFinanceiro\\appsettings.json",
-              "ToolTip": "E:\\LANNA\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\appsettings.json",
-              "RelativeToolTip": "PrjFinanceiro\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-24T17:04:04.239Z",
-              "EditorCaption": ""
             }
           ]
         }

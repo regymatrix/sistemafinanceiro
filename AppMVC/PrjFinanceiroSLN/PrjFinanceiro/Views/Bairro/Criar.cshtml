@@ -6,26 +6,21 @@
             <h2>Cadastrar Novo Bairro</h2>
         </div>
         <div class="card-body">
-            <form action="/Agencia/Criar" method="post">
+            <form action="/Bairro/Criar" method="post">
 
                 <div class="form-group mb-3">
-                    <label for="nome">Nome do Bairro</label>
-                    <input type="text" id="nomeBairro" name="nomeBairro" class="form-control" required />
+                    <label for="nomebairro">Nome do Bairro</label>
+                    <input type="text" id="nomebairro" name="nomebairro" class="form-control" required />
                 </div>
 
                 <div class="form-group mb-3">
-                    <label for="cidade">Cidade</label>
-                    <input type="text" id="cidade" name="cidade" class="form-control" required />
-                </div>
-
-                <div class="form-group mb-3">
-                    <label for="estadoUF">Estado (UF)</label>
-                    <input type="text" id="estadoUF" name="estadoUF" class="form-control" maxlength="2" required />
+                    <label for="codigocidade">Codigo da Cidade</label>
+                    <input type="text" id="codigocidade" name="codigocidade" class="form-control" required />
                 </div>
 
                 <div class="form-group mt-4">
-                    <button type="submit" class="btn btn-primary">Salvar Agência</button>
-                    <a href="/bairro/Index" class="btn btn-secondary">Voltar para a Lista</a>
+                    <button type="submit" class="btn btn-primary">Salvar Bairro</button>
+                    <a href="/Bairro/Index" class="btn btn-secondary">Voltar para a Lista</a>
                 </div>
 
             </form>
