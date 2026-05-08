@@ -23,9 +23,10 @@
         <tbody>
             @foreach (var item in Model)
             {
-                <tr>                    
+                <tr>
                     <td>@item.Codigo</td>
-                    <td>@item.DataNascimento</td>
+                    @* Aqui está o ajuste para mostrar apenas a data *@
+                    <td>@item.DataNascimento.ToString("dd/MM/yyyy")</td>
                     <td>@item.Nome</td>
                     <td>@item.Cidade</td>
                     <td>@item.EstadoUF</td>
