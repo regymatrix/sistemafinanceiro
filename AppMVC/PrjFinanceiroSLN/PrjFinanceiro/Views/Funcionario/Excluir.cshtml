@@ -3,42 +3,69 @@
 <div class="container mt-5">
     <div class="card border-danger">
         <div class="card-header bg-danger text-white">
-            <h2>Excluir Funcionario</h2>
+            <h2>Excluir Funcionário</h2>
         </div>
         <div class="card-body">
-            <h4 class="text-danger">Tem certeza que deseja excluir este funcionario?</h4>
+            <h4 class="text-danger">Deseja realmente excluir este funcionário?</h4>
             <hr />
 
-            <dl class="row">
-                <dt class="col-sm-3">Código:</dt>
-                <dd class="col-sm-9">@Model.Codigo</dd>
+            <div class="row">
+                <div class="col-md-6">
+                    <dl class="row">
+                        <dt class="col-sm-4">Código:</dt>
+                        <dd class="col-sm-8">@Model.Codigo</dd>
 
-                <dt class="col-sm-3">Nome:</dt>
-                <dd class="col-sm-9">@Model.Nome</dd>
+                        <dt class="col-sm-4">Nome:</dt>
+                        <dd class="col-sm-8">@Model.Nome</dd>
 
-                <dt class="col-sm-3">Data de Nascimento:</dt>
-                <dd class="col-sm-9">@Model.DataNascimento</dd>
+                        <dt class="col-sm-4">CPF:</dt>
+                        <dd class="col-sm-8">@FormatarCPF(Model.CPF)</dd>
 
-                <dt class="col-sm-3">Cidade:</dt>
-                <dd class="col-sm-9">@Model.Cidade</dd>
+                        <dt class="col-sm-4">Data Nasc.:</dt>
+                        <dd class="col-sm-8">@Model.DataNascimento.ToString("dd/MM/yyyy")</dd>
+                    </dl>
+                </div>
+                <div class="col-md-6">
+                    <dl class="row">
+                        <dt class="col-sm-4">Cidade/UF:</dt>
+                        <dd class="col-sm-8">@Model.Cidade / @Model.EstadoUF</dd>
 
-                <dt class="col-sm-3">Estado (UF):</dt>
-                <dd class="col-sm-9">@Model.EstadoUF</dd>
+                        <dt class="col-sm-4">Telefone:</dt>
+                        <dd class="col-sm-8">@FormatarTelefone(Model.Telefone)</dd>
 
-                <dt class="col-sm-3">CPF:</dt>
-                <dd class="col-sm-9">@Model.CPF</dd>
+                        <dt class="col-sm-4">Escolaridade:</dt>
+                        <dd class="col-sm-8">@(Model.Escolaridade != null ? Model.Escolaridade.Descricao : "N/A")</dd>
 
-                <dt class="col-sm-3">Telefone:</dt>
-                <dd class="col-sm-9">@Model.Telefone</dd>
+                        <dt class="col-sm-4">Etnia:</dt>
+                        <dd class="col-sm-8">@(Model.Etnia != null ? Model.Etnia.Descricao : "N/A")</dd>
+                    </dl>
+                </div>
+            </div>
 
-            </dl>
-
+            <hr />
             <form action="/Funcionario/ExcluirConfirmado" method="post">
                 <input type="hidden" name="codigo" value="@Model.Codigo" />
-
-                <button type="submit" class="btn btn-danger">Sim, Excluir</button>
+                <button type="submit" class="btn btn-danger">Confirmar Exclusão</button>
                 <a href="/Funcionario/Index" class="btn btn-secondary">Cancelar</a>
             </form>
         </div>
     </div>
 </div>
+
+@functions {
+    public string FormatarCPF(string cpf)
+    {
+        if (string.IsNullOrWhiteSpace(cpf)) return "";
+        var d = System.Text.RegularExpressions.Regex.Replace(cpf, @"\D", "");
+        return d.Length == 11 ? long.Parse(d).ToString(@"000\.000\.000\-00") : cpf;
+    }
+
+    public string FormatarTelefone(string tel)
+    {
+        if (string.IsNullOrWhiteSpace(tel)) return "";
+        var d = System.Text.RegularExpressions.Regex.Replace(tel, @"\D", "");
+        if (d.Length == 11) return long.Parse(d).ToString(@"(00) 00000-0000");
+        if (d.Length == 10) return long.Parse(d).ToString(@"(00) 0000-0000");
+        return tel;
+    }
+}

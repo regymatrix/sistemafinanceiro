@@ -1,36 +1,31 @@
 ﻿@model IEnumerable<PrjFinanceiro.Models.Funcionario>
 
 <div class="container mt-5">
-    <h2 class="mb-4">Lista de Funcionarios - @ViewBag.nomesenaii</h2>
+    <h2 class="mb-4">Lista de Funcionários</h2>
+    <p><a href="/Funcionario/Criar" class="btn btn-success">Novo Funcionário</a></p>
 
-    <p>
-        <a href="/Funcionario/Criar" class="btn btn-success">Cadastrar Novo Funcionario</a>
-    </p>
-
-    <table class="table table-bordered table-hover">
-        <thead class="thead-dark">
+    <table class="table table-striped table-bordered">
+        <thead>
             <tr>
-                <th>Código</th>
-                <th>Data de Nascimento</th>
                 <th>Nome</th>
-                <th>Cidade</th>
-                <th>Estado (UF)</th>
+                <th>Data Nasc.</th>
                 <th>CPF</th>
                 <th>Telefone</th>
-                <th>Ações</th>
+                <th>Escolaridade</th>
+                <th>Etnia</th>
+                <th style="width: 150px;">Ações</th>
             </tr>
         </thead>
         <tbody>
             @foreach (var item in Model)
             {
-                <tr>                    
-                    <td>@item.Codigo</td>
-                    <td>@item.DataNascimento</td>
+                <tr>
                     <td>@item.Nome</td>
-                    <td>@item.Cidade</td>
-                    <td>@item.EstadoUF</td>
-                    <td>@item.CPF</td>
-                    <td>@item.Telefone</td>
+                    <td>@item.DataNascimento.ToString("dd/MM/yyyy")</td>
+                    <td>@FormatarCPF(item.CPF)</td>
+                    <td>@FormatarTelefone(item.Telefone)</td>
+                    <td>@(item.Escolaridade != null ? item.Escolaridade.Descricao : "N/A")</td>
+                    <td>@(item.Etnia != null ? item.Etnia.Descricao : "N/A")</td>
                     <td>
                         <a href="/Funcionario/Editar/@item.Codigo" class="btn btn-sm btn-primary">Editar</a>
                         <a href="/Funcionario/Excluir/@item.Codigo" class="btn btn-sm btn-danger">Excluir</a>
@@ -40,3 +35,21 @@
         </tbody>
     </table>
 </div>
+
+@functions {
+    public string FormatarCPF(string cpf)
+    {
+        if (string.IsNullOrWhiteSpace(cpf)) return "";
+        var d = System.Text.RegularExpressions.Regex.Replace(cpf, @"\D", "");
+        return d.Length == 11 ? long.Parse(d).ToString(@"000\.000\.000\-00") : cpf;
+    }
+
+    public string FormatarTelefone(string tel)
+    {
+        if (string.IsNullOrWhiteSpace(tel)) return "";
+        var d = System.Text.RegularExpressions.Regex.Replace(tel, @"\D", "");
+        if (d.Length == 11) return long.Parse(d).ToString(@"(00) 00000-0000");
+        if (d.Length == 10) return long.Parse(d).ToString(@"(00) 0000-0000");
+        return tel;
+    }
+}
