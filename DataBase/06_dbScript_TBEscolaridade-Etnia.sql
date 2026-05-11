@@ -1,14 +1,22 @@
+-- Novas Tabelas
 
-use dbFinanceiro
-go
+use dbFinanceiro;
 
-Create table Estado (
+CREATE TABLE Escolaridade (
+    Codigo INT PRIMARY KEY IDENTITY(1,1),
+    Descricao VARCHAR(100) NOT NULL
+);
 
-Codigo int identity(1,1) primary key,
-NomeEstado varchar(100) not null,
-Sigla varchar(2) not null
-)
+CREATE TABLE Etnia (
+    Codigo INT PRIMARY KEY IDENTITY(1,1),
+    Descricao VARCHAR(100) NOT NULL
+);
 
---INSERT Estado VALUES('Sergipe','SE')
+-- Atualizando a Tabela de Funcionário
+-- Removendo colunas antigas se necessário e adicionando as FKs
+ALTER TABLE Funcionario ADD CodigoEscolaridade INT;
+ALTER TABLE Funcionario ADD CodigoEtnia INT;
 
-SELECT * FROM Estado
+-- Adicionando os Relacionamentos
+ALTER TABLE Funcionario ADD CONSTRAINT FK_Func_Escolaridade FOREIGN KEY (CodigoEscolaridade) REFERENCES Escolaridade(Codigo);
+ALTER TABLE Funcionario ADD CONSTRAINT FK_Func_Etnia FOREIGN KEY (CodigoEtnia) REFERENCES Etnia(Codigo);

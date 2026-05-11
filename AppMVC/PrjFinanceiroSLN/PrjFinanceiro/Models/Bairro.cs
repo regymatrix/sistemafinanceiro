@@ -9,7 +9,7 @@ namespace PrjFinanceiro.Models
         public int Codigo { get; set; }
         public string NomeBairro { get; set; }
         public int CodigoCidade { get; set; }
-
+        
         [ForeignKey("CodigoCidade")]
         public virtual Cidade Cidade { get; set; }
     }
