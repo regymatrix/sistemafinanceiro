@@ -11,6 +11,6 @@ namespace PrjFinanceiro.Models
         public DbSet<Agencia> Agencia { get; set; }
         public DbSet<Funcionario> Funcionario { get; set; }
         public DbSet<Estado> Estado { get; set; }
-
+        public DbSet<Escolaridade> Escolaridade { get; set; }
     }
 }
