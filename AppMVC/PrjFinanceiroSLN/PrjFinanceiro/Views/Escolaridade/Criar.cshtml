@@ -1,0 +1,22 @@
+﻿@model PrjFinanceiro.Models.Escolaridade
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header bg-success text-white">
+            <h2>Cadastrar Escolaridade</h2>
+        </div>
+        <div class="card-body">
+            <form action="/Escolaridade/Criar" method="post">
+                <div class="form-group mb-3">
+                    <label for="descricao">Descrição</label>
+                    <input type="text" id="descricao" name="descricao" class="form-control" placeholder="Ex: Ensino Médio Completo" required />
+                </div>
+
+                <div class="form-group mt-4">
+                    <button type="submit" class="btn btn-primary">Salvar</button>
+                    <a href="/Escolaridade/Index" class="btn btn-secondary">Voltar</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

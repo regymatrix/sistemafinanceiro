@@ -1,9 +1,14 @@
-﻿using System;
+﻿
 using System.ComponentModel.DataAnnotations;
-using Microsoft.IdentityModel.Tokens;
+
 
 namespace PrjFinanceiro.Models
 {
+    using PrjFinanceiro.Models;
+    using System.ComponentModel.DataAnnotations.Schema;
+    using System.ComponentModel.DataAnnotations;
+    using System;
+
     public class Funcionario
     {
         [Key]
@@ -15,5 +20,16 @@ namespace PrjFinanceiro.Models
         public string CPF { get; set; }
         public string Telefone { get; set; }
 
+        // Chaves Estrangeiras
+        public int CodigoEscolaridade { get; set; }
+        public int CodigoEtnia { get; set; }
+
+        [ForeignKey("CodigoEscolaridade")]
+        public virtual Escolaridade Escolaridade { get; set; }
+
+        [ForeignKey("CodigoEtnia")]
+        public virtual Etnia Etnia { get; set; }
     }
 }
+
+
