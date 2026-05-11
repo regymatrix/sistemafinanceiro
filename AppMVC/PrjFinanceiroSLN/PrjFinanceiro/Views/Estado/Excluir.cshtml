@@ -1,0 +1,32 @@
+﻿@model PrjFinanceiro.Models.Estado
+
+<div class="container mt-5">
+    <div class="card border-danger">
+        <div class="card-header bg-danger text-white">
+            <h2>Excluir Estado</h2>
+        </div>
+        <div class="card-body">
+            <h4 class="text-danger">Tem certeza que deseja excluir esta estado?</h4>
+            <hr />
+
+            <dl class="row">
+                <dt class="col-sm-3">Nome do Estado:</dt>
+                <dd class="col-sm-9">@Model.NomeEstado</dd>
+
+                <dt class="col-sm-3">SIGLA:</dt>
+                <dd class="col-sm-9">@Model.Sigla</dd>
+
+                <dt class="col-sm-3">Código::</dt>
+                <dd class="col-sm-9">@Model.CodigoEstado </dd>
+            </dl>
+
+
+            <form action="/Estado/ExcluirConfirmado" method="post">
+                <input type="hidden" name="codigo" value="@Model.CodigoEstado" />
+
+                <button type="submit" class="btn btn-danger">Sim, Excluir</button>
+                <a href="/Estado/Index" class="btn btn-secondary">Cancelar</a>
+            </form>
+        </div> 
+    </div>
+</div>

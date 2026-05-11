@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace PrjFinanceiro.Models
 {
-    public class Estado
+    public class CodigoEstado
     {
         [Key]
         public int Codigo { get; set; }

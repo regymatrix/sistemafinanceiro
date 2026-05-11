@@ -3,23 +3,22 @@
 <div class="container mt-5">
     <div class="card">
         <div class="card-header bg-primary text-white">
-            <h2>Editar Cidade</h2>
+            <h2>Editar Estado</h2>
         </div>
         <div class="card-body">
-            <form action="/Cidade/Editar" method="post">
+            <form action="/Estado/Editar" method="post">
 
-                <input type="hidden" name="codigo" value="@Model.Codigo" />
+                <input type="hidden" name="codigo" value="@Model.CodigoEstado" />
 
                 <div class="form-group mb-3">
-                    <label for="nomecidade">Nome da Cidade</label>
-                    <input type="text" id="nomecidade" name="nomecidade" class="form-control" value="@Model.NomeCidade" required />
+                    <label for="nomeestado">Nome do Estado</label>
+                    <input type="text" id="nomeestado" name="nomeestado" class="form-control" value="@Model.NomeEstado" required />
                 </div>
 
                 <div class="form-group mb-3">
-                    <label for="codigoibge">Codigo do IBGE</label>
-                    <input type="text" id="codigoibge" name="codigoibge" class="form-control" value="@Model.CodigoIBGE" required />
+                    <label for="Sigla">SIGLA</label>
+                    <input type="text" id="Sigla" name="Sigla " class="form-control" value="@Model.Sigla" required />
                 </div>
-
 
                 <div class="form-group mb-3">
                     <label for="codigoestado">Codigo do Estado</label>
@@ -28,7 +27,7 @@
 
                 <div class="form-group mt-4">
                     <button type="submit" class="btn btn-primary">Salvar Alterações</button>
-                    <a href="/Cidade/Index" class="btn btn-secondary">Cancelar</a>
+                    <a href="/Estado/Index" class="btn btn-secondary">Cancelar</a>
                 </div>
 
             </form>
