@@ -9,5 +9,8 @@ namespace PrjFinanceiro.Models
         public int Codigo { get; set; }
         public string NomeEstado { get; set; }
         public string Sigla { get; set; }
+
+        public int Cidade { get; set; }
+       
     }
 }
