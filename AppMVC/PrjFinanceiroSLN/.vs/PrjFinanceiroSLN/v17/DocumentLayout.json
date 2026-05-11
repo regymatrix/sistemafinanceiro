@@ -1,21 +1,89 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\professor.cetafest\\Documents\\GitHub2\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\",
+  "WorkspaceRootPath": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\professor.cetafest\\documents\\github2\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\guilherme atividade\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\escolaridadecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\escolaridadecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\guilherme atividade\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\etnia\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\etnia\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\guilherme atividade\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\escolaridade\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\escolaridade\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\guilherme atividade\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\etniacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\etniacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\guilherme atividade\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\estadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\estadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\guilherme atividade\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\escolaridade\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\escolaridade\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\guilherme atividade\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\funcionario\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\funcionario\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\guilherme atividade\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\guilherme atividade\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\etnia\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\etnia\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\guilherme atividade\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\etnia\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\etnia\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\guilherme atividade\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\etnia\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\etnia\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\guilherme atividade\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\etnia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\models\\etnia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\guilherme atividade\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\escolaridade\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\escolaridade\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\guilherme atividade\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\guilherme atividade\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\escolaridade\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\escolaridade\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\guilherme atividade\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\escolaridade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\models\\escolaridade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\guilherme atividade\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\professor.cetafest\\documents\\github2\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\agenciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\guilherme atividade\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\models\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\guilherme atividade\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\agenciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\agenciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\professor.cetafest\\documents\\github2\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\guilherme atividade\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\professor.cetafest\\documents\\github2\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\guilherme atividade\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,70 +94,277 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FuncionarioController.cs",
-              "DocumentMoniker": "C:\\Users\\professor.cetafest\\Documents\\GitHub2\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\FuncionarioController.cs",
-              "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\FuncionarioController.cs",
-              "ToolTip": "C:\\Users\\professor.cetafest\\Documents\\GitHub2\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\FuncionarioController.cs",
-              "RelativeToolTip": "PrjFinanceiro\\Controllers\\FuncionarioController.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAMwFAAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T17:05:06.381Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Funcionario.cs",
-              "DocumentMoniker": "C:\\Users\\professor.cetafest\\Documents\\GitHub2\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Funcionario.cs",
-              "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\Funcionario.cs",
-              "ToolTip": "C:\\Users\\professor.cetafest\\Documents\\GitHub2\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Funcionario.cs",
-              "RelativeToolTip": "PrjFinanceiro\\Models\\Funcionario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T17:04:52.069Z",
+              "DocumentIndex": 10,
+              "Title": "Criar.cshtml",
+              "DocumentMoniker": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Etnia\\Criar.cshtml",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Etnia\\Criar.cshtml",
+              "ToolTip": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Etnia\\Criar.cshtml",
+              "RelativeToolTip": "PrjFinanceiro\\Views\\Etnia\\Criar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-11T12:44:23.408Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AgenciaController.cs",
-              "DocumentMoniker": "C:\\Users\\professor.cetafest\\Documents\\GitHub2\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\AgenciaController.cs",
-              "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\AgenciaController.cs",
-              "ToolTip": "C:\\Users\\professor.cetafest\\Documents\\GitHub2\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\AgenciaController.cs",
-              "RelativeToolTip": "PrjFinanceiro\\Controllers\\AgenciaController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAlwBEAAAAAAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Etnia\\Index.cshtml",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Etnia\\Index.cshtml",
+              "ToolTip": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Etnia\\Index.cshtml*",
+              "RelativeToolTip": "PrjFinanceiro\\Views\\Etnia\\Index.cshtml*",
+              "ViewState": "AgIAACcAAAAAAAAAAAAswEwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-11T12:44:13.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Excluir.cshtml",
+              "DocumentMoniker": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Escolaridade\\Excluir.cshtml",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Escolaridade\\Excluir.cshtml",
+              "ToolTip": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Escolaridade\\Excluir.cshtml",
+              "RelativeToolTip": "PrjFinanceiro\\Views\\Escolaridade\\Excluir.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-11T12:42:02.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EtniaController.cs",
+              "DocumentMoniker": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\EtniaController.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\EtniaController.cs",
+              "ToolTip": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\EtniaController.cs",
+              "RelativeToolTip": "PrjFinanceiro\\Controllers\\EtniaController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAuwFsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T17:03:34.963Z",
+              "WhenOpened": "2026-05-11T12:41:13.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Escolaridade\\Editar.cshtml",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Escolaridade\\Editar.cshtml",
+              "ToolTip": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Escolaridade\\Editar.cshtml",
+              "RelativeToolTip": "PrjFinanceiro\\Views\\Escolaridade\\Editar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-11T12:39:53.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Criar.cshtml",
+              "DocumentMoniker": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Escolaridade\\Criar.cshtml",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Escolaridade\\Criar.cshtml",
+              "ToolTip": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Escolaridade\\Criar.cshtml",
+              "RelativeToolTip": "PrjFinanceiro\\Views\\Escolaridade\\Criar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-11T12:39:46.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Escolaridade\\Index.cshtml",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Escolaridade\\Index.cshtml",
+              "ToolTip": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Escolaridade\\Index.cshtml*",
+              "RelativeToolTip": "PrjFinanceiro\\Views\\Escolaridade\\Index.cshtml*",
+              "ViewState": "AgIAACcAAAAAAAAAAAAswEwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-11T12:39:38.737Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EscolaridadeController.cs",
+              "DocumentMoniker": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\EscolaridadeController.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\EscolaridadeController.cs",
+              "ToolTip": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\EscolaridadeController.cs*",
+              "RelativeToolTip": "PrjFinanceiro\\Controllers\\EscolaridadeController.cs*",
+              "ViewState": "AgIAACwAAAAAAAAAAAAuwEcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T12:38:09.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Etnia.cs",
+              "DocumentMoniker": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Etnia.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\Etnia.cs",
+              "ToolTip": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Etnia.cs",
+              "RelativeToolTip": "PrjFinanceiro\\Models\\Etnia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T12:37:40.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Escolaridade.cs",
+              "DocumentMoniker": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Escolaridade.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\Escolaridade.cs",
+              "ToolTip": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Escolaridade.cs",
+              "RelativeToolTip": "PrjFinanceiro\\Models\\Escolaridade.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T12:37:11.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EstadoController.cs",
+              "DocumentMoniker": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\EstadoController.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\EstadoController.cs",
+              "ToolTip": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\EstadoController.cs",
+              "RelativeToolTip": "PrjFinanceiro\\Controllers\\EstadoController.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAADwv3QAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T11:53:20.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Etnia\\Editar.cshtml",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Etnia\\Editar.cshtml",
+              "ToolTip": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Etnia\\Editar.cshtml",
+              "RelativeToolTip": "PrjFinanceiro\\Views\\Etnia\\Editar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-11T12:49:19.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Excluir.cshtml",
+              "DocumentMoniker": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Funcionario\\Excluir.cshtml",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Funcionario\\Excluir.cshtml",
+              "ToolTip": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Funcionario\\Excluir.cshtml",
+              "RelativeToolTip": "PrjFinanceiro\\Views\\Funcionario\\Excluir.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-11T12:54:21.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PrjFinanceiro\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-11T12:14:50.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Excluir.cshtml",
+              "DocumentMoniker": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Etnia\\Excluir.cshtml",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Etnia\\Excluir.cshtml",
+              "ToolTip": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Etnia\\Excluir.cshtml",
+              "RelativeToolTip": "PrjFinanceiro\\Views\\Etnia\\Excluir.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-11T12:49:26.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\AppDbContext.cs",
+              "ToolTip": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "PrjFinanceiro\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T11:59:23.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\professor.cetafest\\Documents\\GitHub2\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\appsettings.json",
+              "DocumentMoniker": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\appsettings.json",
               "RelativeDocumentMoniker": "PrjFinanceiro\\appsettings.json",
-              "ToolTip": "C:\\Users\\professor.cetafest\\Documents\\GitHub2\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\appsettings.json",
+              "ToolTip": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\appsettings.json",
               "RelativeToolTip": "PrjFinanceiro\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-04-24T17:04:04.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Estado.cs",
+              "DocumentMoniker": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Estado.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\Estado.cs",
+              "ToolTip": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Estado.cs",
+              "RelativeToolTip": "PrjFinanceiro\\Models\\Estado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T11:45:57.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FuncionarioController.cs",
+              "DocumentMoniker": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\FuncionarioController.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\FuncionarioController.cs",
+              "ToolTip": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\FuncionarioController.cs",
+              "RelativeToolTip": "PrjFinanceiro\\Controllers\\FuncionarioController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAMwFAAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T17:05:06.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Funcionario.cs",
+              "DocumentMoniker": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Funcionario.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\Funcionario.cs",
+              "ToolTip": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Funcionario.cs",
+              "RelativeToolTip": "PrjFinanceiro\\Models\\Funcionario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T17:04:52.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AgenciaController.cs",
+              "DocumentMoniker": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\AgenciaController.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\AgenciaController.cs",
+              "ToolTip": "E:\\Guilherme Atividade\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\AgenciaController.cs",
+              "RelativeToolTip": "PrjFinanceiro\\Controllers\\AgenciaController.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAADwv4EAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T17:03:34.963Z",
               "EditorCaption": ""
             }
           ]

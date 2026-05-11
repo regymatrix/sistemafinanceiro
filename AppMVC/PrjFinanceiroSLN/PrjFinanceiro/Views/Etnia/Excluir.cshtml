@@ -1,0 +1,15 @@
+﻿@model PrjFinanceiro.Models.Etnia
+<div class="container mt-5">
+    <div class="card border-danger">
+        <div class="card-header bg-danger text-white"><h2>Excluir Etnia</h2></div>
+        <div class="card-body">
+            <h4>Tem certeza que deseja excluir esta etnia?</h4>
+            <p><strong>@Model.Descricao</strong></p>
+            <form action="/Etnia/ExcluirConfirmado" method="post">
+                <input type="hidden" name="codigo" value="@Model.Codigo" />
+                <button type="submit" class="btn btn-danger">Confirmar</button>
+                <a href="/Etnia/Index" class="btn btn-secondary">Cancelar</a>
+            </form>
+        </div>
+    </div>
+</div>

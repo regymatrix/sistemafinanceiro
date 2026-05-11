@@ -1,0 +1,24 @@
+﻿@model PrjFinanceiro.Models.Escolaridade
+
+<div class="container mt-5">
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white">
+            <h2 class="mb-0">Editar Escolaridade</h2>
+        </div>
+        <div class="card-body">
+            <form action="/Escolaridade/Editar" method="post">
+                <input type="hidden" name="codigo" value="@Model.Codigo" />
+
+                <div class="mb-3">
+                    <label class="form-label">Descrição</label>
+                    <input type="text" name="Descricao" class="form-control" value="@Model.Descricao" required />
+                </div>
+
+                <div class="mt-4">
+                    <button type="submit" class="btn btn-primary">Salvar Alterações</button>
+                    <a href="/Escolaridade/Index" class="btn btn-secondary">Cancelar</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

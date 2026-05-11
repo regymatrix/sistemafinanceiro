@@ -1,0 +1,17 @@
+﻿@model PrjFinanceiro.Models.Etnia
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header bg-primary text-white"><h2>Editar Etnia</h2></div>
+        <div class="card-body">
+            <form action="/Etnia/Editar" method="post">
+                <input type="hidden" name="codigo" value="@Model.Codigo" />
+                <div class="mb-3">
+                    <label>Descrição</label>
+                    <input type="text" name="Descricao" class="form-control" value="@Model.Descricao" required />
+                </div>
+                <button type="submit" class="btn btn-primary">Salvar Alterações</button>
+                <a href="/Etnia/Index" class="btn btn-secondary">Cancelar</a>
+            </form>
+        </div>
+    </div>
+</div>
