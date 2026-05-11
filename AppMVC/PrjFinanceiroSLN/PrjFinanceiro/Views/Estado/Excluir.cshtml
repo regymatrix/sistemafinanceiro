@@ -1,32 +1,32 @@
-﻿@model PrjFinanceiro.Models.Estado
+﻿@model PrjFinanceiro.Models.Estado 
 
-<div class="container mt-5">
-    <div class="card border-danger">
-        <div class="card-header bg-danger text-white">
-            <h2>Excluir Estado</h2>
-        </div>
-        <div class="card-body">
-            <h4 class="text-danger">Tem certeza que deseja excluir este Estado?</h4>
-            <hr />
+<div class="container mt-5"> 
+    <div class="card border-danger"> 
+        <div class="card-header bg-danger text-white"> 
+            <h2>Excluir Estado</h2> 
+        </div> 
+        <div class="card-body"> 
+            <h4 class="text-danger">Tem certeza que deseja excluir este Estado?</h4> 
+            <hr /> 
 
-            <dl class="row">
-                <dt class="col-sm-3">Código:</dt>
-                <dd class="col-sm-9">@Model.Codigo</dd>
+            <dl class="row"> 
+                <dt class="col-sm-3">Código:</dt> 
+                <dd class="col-sm-9">@Model.Codigo</dd> 
 
-                <dt class="col-sm-3">Nome do Estado:</dt>
-                <dd class="col-sm-9">@Model.NomeEstado</dd>
+                <dt class="col-sm-3">Nome do Estado:</dt> 
+                <dd class="col-sm-9">@Model.NomeEstado</dd> 
 
-                <dt class="col-sm-3">Sigla:</dt>
-                <dd class="col-sm-9">@Model.Sigla</dd>
+                <dt class="col-sm-3">Sigla:</dt> 
+                <dd class="col-sm-9">@Model.Sigla</dd> 
 
-            </dl>
+            </dl> 
 
-            <form action="/Estado/ExcluirConfirmado" method="post">
-                <input type="hidden" name="codigo" value="@Model.Codigo" />
+            <form action="/Estado/ExcluirConfirmado" method="post"> 
+                <input type="hidden" name="codigo" value="@Model.Codigo" /> 
 
-                <button type="submit" class="btn btn-danger">Sim, Excluir</button>
-                <a href="/Estado/Index" class="btn btn-secondary">Cancelar</a>
-            </form>
-        </div>
-    </div>
-</div>
+                <button type="submit" class="btn btn-danger">Sim, Excluir</button> 
+                <a href="/Estado/Index" class="btn btn-secondary">Cancelar</a> 
+            </form> 
+        </div> 
+    </div> 
+</div> 
