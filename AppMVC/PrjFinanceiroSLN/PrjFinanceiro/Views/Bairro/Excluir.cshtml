@@ -1,0 +1,21 @@
+﻿@model PrjFinanceiro.Models.Bairro
+<div class="container mt-5">
+    <div class="card border-danger">
+        <div class="card-header bg-danger text-white"><h2>Excluir Bairro</h2></div>
+        <div class="card-body">
+            <h4 class="text-danger">Deseja realmente apagar este registro?</h4>
+            <hr />
+            <dl class="row">
+                <dt class="col-sm-3">Bairro:</dt>
+                <dd class="col-sm-9">@Model.NomeBairro</dd>
+                <dt class="col-sm-3">Cidade:</dt>
+                <dd class="col-sm-9">@(Model.Cidade?.NomeCidade ?? "N/A")</dd>
+            </dl>
+            <form action="/Bairro/ExcluirConfirmado" method="post">
+                <input type="hidden" name="codigo" value="@Model.Codigo" />
+                <button type="submit" class="btn btn-danger">Sim, Excluir</button>
+                <a href="/Bairro/Index" class="btn btn-secondary">Cancelar</a>
+            </form>
+        </div>
+    </div>
+</div>

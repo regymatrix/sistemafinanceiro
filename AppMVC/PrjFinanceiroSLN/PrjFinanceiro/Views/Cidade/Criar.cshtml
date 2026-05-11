@@ -1,0 +1,29 @@
+﻿@model PrjFinanceiro.Models.Cidade
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header bg-success text-white"><h2>Cadastrar Cidade</h2></div>
+        <div class="card-body">
+            <form action="/Cidade/Criar" method="post">
+                <div class="mb-3">
+                    <label>Nome da Cidade</label>
+                    <input type="text" name="NomeCidade" class="form-control" required />
+                </div>
+                <div class="mb-3">
+                    <label>Código IBGE</label>
+                    <input type="text" name="CodigoIBGE" class="form-control" required />
+                </div>
+                <div class="mb-3">
+                    <label>Estado</label>
+                    <select name="CodigoEstado" class="form-control" required>
+                        <option value="">-- Selecione o Estado --</option>
+                        @foreach (var est in ViewBag.Estados) {
+                            <option value="@est.Codigo">@est.NomeEstado (@est.Sigla)</option>
+                        }
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Salvar</button>
+                <a href="/Cidade/Index" class="btn btn-secondary">Voltar</a>
+            </form>
+        </div>
+    </div>
+</div>

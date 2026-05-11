@@ -1,0 +1,27 @@
+﻿@model PrjFinanceiro.Models.Bairro
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header bg-primary text-white"><h2>Editar Bairro</h2></div>
+        <div class="card-body">
+            <form action="/Bairro/Editar" method="post">
+                <input type="hidden" name="codigo" value="@Model.Codigo" />
+                <div class="mb-3">
+                    <label>Nome do Bairro</label>
+                    <input type="text" name="NomeBairro" class="form-control" value="@Model.NomeBairro" required />
+                </div>
+                <div class="mb-3">
+                    <label>Cidade</label>
+                    <select name="CodigoCidade" class="form-control" required>
+                        @foreach (var cid in ViewBag.Cidades) {
+                            <option value="@cid.Codigo" selected="@(cid.Codigo == Model.CodigoCidade ? "selected" : null)">
+                                @cid.NomeCidade
+                            </option>
+                        }
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Salvar Alterações</button>
+                <a href="/Bairro/Index" class="btn btn-secondary">Cancelar</a>
+            </form>
+        </div>
+    </div>
+</div>  
