@@ -4,7 +4,7 @@
     <h2 class="mb-4">Lista de Estado </h2>
 
     <p>
-        <a href="/Estado/Criar" class="btn btn-success">Cadastrar Nova Estado</a>
+        <a href="/Estado/Criar" class="btn btn-success">Cadastrar Novo Estado</a>
     </p>
 
     <table class="table table-bordered table-hover">
@@ -43,8 +43,8 @@
                 <h5 class="modal-title">Confirmar Exclusão</h5>
             </div>
             <div class="modal-body">
-                <p>Tem certeza que deseja excluir a agência <strong id="nomeAgenciaModal"></strong>?</p>
-                <input type="hidden" id="idAgenciaExcluir" />
+                <p>Tem certeza que deseja excluir o estado? <strong id="nomeEstadoModal"></strong>?</p>
+                <input type="hidden" id="idEstadoExcluir" />
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
@@ -58,14 +58,14 @@
 <script>
     // Função para preparar o modal com os dados da agência selecionada
     function abrirModalExcluir(id, nome) {
-        $('#idAgenciaExcluir').val(id);
-        $('#nomeAgenciaModal').text(nome);
+        $('#idEstadoExcluir').val(id);
+        $('#nomeEstadoModal').text(nome);
         $('#modalExcluir').modal('show');
     }
 
     // Função que envia a requisição para o C#
     function confirmarExclusao() {
-        var id = $('#idAgenciaExcluir').val();
+        var id = $('#idEstadoExcluir').val();
 
         $.ajax({
             url: '/Estado/ExcluirConfirmadoModal',
