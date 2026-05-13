@@ -1,0 +1,31 @@
+﻿@model PrjFinanceiro.Models.Escolaridade
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header bg-primary text-white">
+            <h2>Editar Escolaridade</h2>
+        </div>
+        <div class="card-body">
+            <form action="/Escolaridade/Editar" method="post">
+
+                <input type="hidden" name="codigo" value="@Model.Codigo" />
+
+                <div class="form-group mb-3">
+                    <label for="codigoescolaridade">Codigo Escolaridade:</label>
+                    <input type="text" id="codigoescolaridade" name="codigoescolaridade" class="form-control" value="@Model.Codigo" required />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="descricaoescolaridade">Descrição Escolaridade:</label>
+                    <input type="text" id="descricaoescolaridade" name="descricaoescolaridade" class="form-control" value="@Model.Descricao" maxlength="2" required />
+                </div>
+
+                <div class="form-group mt-4">
+                    <button type="submit" class="btn btn-primary">Salvar Alterações</button>
+                    <a href="/Escolaridade/Index" class="btn btn-secondary">Cancelar</a>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
