@@ -1,0 +1,30 @@
+﻿@model PrjFinanceiro.Models.Estado
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header bg-success text-white">
+            <h2>Cadastrar Novo Estado</h2>
+        </div>
+        <div class="card-body">
+            <form action="/Estado/Criar" method="post">
+
+                <div class="form-group mb-3">
+                    <label for="nomeestado">Nome do Estado</label>
+                    <input type="text" id="nomeestado" name="nomeestado" class="form-control" required />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="siga">Sigla</label>
+                    <input type="text" id="sigla" name="sigla" class="form-control" required />
+                </div>
+
+
+                <div class="form-group mt-4">
+                    <button type="submit" class="btn btn-primary">Salvar Estado</button>
+                    <a href="/Estado/Index" class="btn btn-secondary">Voltar para a Lista</a>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
