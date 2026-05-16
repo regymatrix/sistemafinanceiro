@@ -17,12 +17,12 @@
                 <dd class="col-sm-9">@Model.Sigla</dd>
 
                 <dt class="col-sm-3">Código::</dt>
-                <dd class="col-sm-9">@Model.CodigoEstado </dd>
+                <dd class="col-sm-9">@Model.Codigo </dd>
             </dl>
 
 
             <form action="/Estado/ExcluirConfirmado" method="post">
-                <input type="hidden" name="codigo" value="@Model.CodigoEstado" />
+                <input type="hidden" name="codigo" value="@Model.Codigo" />
 
                 <button type="submit" class="btn btn-danger">Sim, Excluir</button>
                 <a href="/Estado/Index" class="btn btn-secondary">Cancelar</a>

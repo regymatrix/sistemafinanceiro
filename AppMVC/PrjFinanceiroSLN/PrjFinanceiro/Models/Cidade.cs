@@ -2,7 +2,7 @@
 
 namespace PrjFinanceiro.Models
 {
-    public class Estado
+    public class Cidade
     {
 
         [Key]

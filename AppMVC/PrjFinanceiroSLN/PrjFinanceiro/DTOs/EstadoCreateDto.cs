@@ -1,0 +1,17 @@
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace PrjFinanceiro.DTOs
+{
+    public class EstadoCreateDto
+    {
+        [Required(ErrorMessage = "O nome do Estado é obrigatório.")]
+        [StringLength(100, ErrorMessage = "O nome não pode exceder 100 caracteres.")]
+        public string NomeEstado { get; set; }
+
+        [Required(ErrorMessage = "A Sigla é obrigatória.")]
+        [StringLength(2, MinimumLength = 2, ErrorMessage = "A Sigla deve conter exatamente 2 caracteres.")]
+        public string Sigla { get; set; }
+
+
+    }
+}
