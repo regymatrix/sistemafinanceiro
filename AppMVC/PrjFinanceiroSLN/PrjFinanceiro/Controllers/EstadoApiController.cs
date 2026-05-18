@@ -55,7 +55,7 @@ namespace PrjFinanceiro.Controllers
             _context.Estado.Add(novoEstado);
             _context.SaveChanges();
 
-            // Padrão REST excelente: Retorna Status 201 Created, popula o cabeçalho 'Location' com a URL de consulta 
+            // Padrão REST excelente: Retorna Status 201 Created, popula o cabeçalho 'Location' com a URL de consulta
             // e entrega o objeto recém-criado com a ID gerada pelo banco de dados.
             return CreatedAtAction(nameof(BuscarPorId), new { id = novoEstado.Codigo }, novoEstado);
         }
@@ -91,7 +91,7 @@ namespace PrjFinanceiro.Controllers
 
             if (estado == null)
             {
-                return NotFound(new { message = $"Estado de código {id} não encontrada para exclusão." });
+                return NotFound(new { message = $"Estado de código {id} não encontrado para exclusão." });
             }
 
             _context.Estado.Remove(estado);
