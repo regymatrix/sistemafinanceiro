@@ -14,6 +14,7 @@ namespace PrjFinanceiro.Models
         public DbSet<Cidade> Cidade { get; set; }
         public DbSet<Bairro> Bairro { get; set; }
         public DbSet<Etnia> Etnia { get; set; }
+        public DbSet<Escolaridade> Escolaridade { get; set; }
 
     }
 }
