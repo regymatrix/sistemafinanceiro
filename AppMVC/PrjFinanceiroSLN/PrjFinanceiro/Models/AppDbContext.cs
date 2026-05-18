@@ -13,6 +13,7 @@ namespace PrjFinanceiro.Models
         public DbSet<Estado> Estado { get; set; }
         public DbSet<Cidade> Cidade { get; set; }
         public DbSet<Bairro> Bairro { get; set; }
+        public DbSet<Etnia> Etnia { get; set; }
 
     }
 }
