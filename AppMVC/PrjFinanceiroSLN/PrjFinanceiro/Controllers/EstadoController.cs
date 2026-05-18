@@ -17,11 +17,9 @@ namespace PrjFinanceiro.Controllers
         {
             var lista = _context.Estado.ToList();
             ViewBag.nomesenai = "SENAI";
-            
-            return View(lista); // Passa a lista para a View
+
+            return View(lista);
         }
-
-
 
         [HttpGet]
         public IActionResult Criar()
@@ -32,18 +30,17 @@ namespace PrjFinanceiro.Controllers
         [HttpPost]
         public IActionResult Criar(string NomeEstado, string sigla)
         {
-            // Criamos o objeto manualmente com os dados que vieram do formulário
-            var novaEstado = new Estado
+            var novoEstado = new Estado
             {
                 NomeEstado = NomeEstado,
                 Sigla = sigla
-                
             };
 
             if (!string.IsNullOrEmpty(NomeEstado))
             {
-                _context.Estado.Add(novaEstado);
+                _context.Estado.Add(novoEstado);
                 _context.SaveChanges();
+
                 return RedirectToAction("Index");
             }
 
@@ -54,61 +51,58 @@ namespace PrjFinanceiro.Controllers
         [HttpGet]
         public IActionResult Editar(int id)
         {
-            // Busca a agência pelo código (ID)
-            var agencia = _context.Estado.FirstOrDefault(a => a.Codigo == id);
+            var estado = _context.Estado.FirstOrDefault(a => a.Codigo == id);
 
-            if (agencia == null)
+            if (estado == null)
             {
                 return NotFound();
             }
 
-            return View(agencia); // Passa o objeto para a View preencher os campos
+            return View(estado);
         }
 
         // POST: Estado/Editar
         [HttpPost]
         public IActionResult Editar(int codigo, string NomeEstado, string sigla)
         {
-            // Busca o registro existente no banco
-            var  table = _context.Estado.FirstOrDefault(a => a.Codigo == codigo);
+            var estado = _context.Estado.FirstOrDefault(a => a.Codigo == codigo);
 
-            if (table != null)
+            if (estado != null)
             {
-                // Atualiza os atributos manualmente
-                table.NomeEstado = NomeEstado;
-                table.Sigla = sigla;
-                
+                estado.NomeEstado = NomeEstado;
+                estado.Sigla = sigla;
 
                 _context.SaveChanges();
+
                 return RedirectToAction("Index");
             }
 
             return View();
         }
+
         // GET: Estado/Excluir/5
         [HttpGet]
         public IActionResult Excluir(int id)
         {
-            // Busca a agência para mostrar ao usuário o que ele está prestes a apagar
-            var agencia = _context.Estado.FirstOrDefault(a => a.Codigo == id);
+            var estado = _context.Estado.FirstOrDefault(a => a.Codigo == id);
 
-            if (agencia == null)
+            if (estado == null)
             {
                 return NotFound();
             }
 
-            return View(agencia);
+            return View(estado);
         }
 
         // POST: Estado/ExcluirConfirmado
         [HttpPost]
         public IActionResult ExcluirConfirmado(int codigo)
         {
-            var agencia = _context.Estado.FirstOrDefault(a => a.Codigo == codigo);
+            var estado = _context.Estado.FirstOrDefault(a => a.Codigo == codigo);
 
-            if (agencia != null)
+            if (estado != null)
             {
-                _context.Estado.Remove(agencia);
+                _context.Estado.Remove(estado);
                 _context.SaveChanges();
             }
 
@@ -118,20 +112,17 @@ namespace PrjFinanceiro.Controllers
         [HttpPost]
         public IActionResult ExcluirConfirmadoModal(int codigo)
         {
-            var agencia = _context.Estado.FirstOrDefault(a => a.Codigo == codigo);
+            var estado = _context.Estado.FirstOrDefault(a => a.Codigo == codigo);
 
-            if (agencia != null)
+            if (estado != null)
             {
-                _context.Estado.Remove(agencia);
+                _context.Estado.Remove(estado);
                 _context.SaveChanges();
+
                 return Json(new { success = true, message = "Excluído com sucesso!" });
             }
 
             return Json(new { success = false, message = "Erro ao excluir." });
         }
-
-
-
-
     }
 }
