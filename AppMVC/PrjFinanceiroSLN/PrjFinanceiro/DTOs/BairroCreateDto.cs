@@ -5,10 +5,11 @@ namespace PrjFinanceiro.DTOs
     public class BairroCreateDto
     {
         [Required(ErrorMessage = "O nome do Bairro é obrigatório.")]
-        [StringLength(100)]
+        [StringLength(100, ErrorMessage = "O nome não pode exceder 100 caracteres.")]
         public string NomeBairro { get; set; }
 
-        [Required(ErrorMessage = "O código da Cidade é obrigatório.")]
+        [Required(ErrorMessage = "O CodigoCidade é obrigatório.")]
+        [StringLength(100, ErrorMessage = "O nome não pode exceder 100 caracteres.")]
         public int CodigoCidade { get; set; }
     }
 }
