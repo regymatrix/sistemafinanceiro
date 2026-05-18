@@ -4,10 +4,14 @@
   "Documents": [
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> feat/elias/bairroapi
       "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\attellias\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\attellias\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\estadoapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\estadoapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,6 +29,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\attellias\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\dtos\\cidadecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\dtos\\cidadecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\attellias\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\agenciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\agenciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\attellias\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\bairroapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\bairroapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> feat/elias/bairroapi
     },
     {
       "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\attellias\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\cidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,7 +49,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\attellias\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\cidadecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\cidadecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+<<<<<<< HEAD
 >>>>>>> feat/elias/cidadeapi
+=======
+>>>>>>> feat/elias/bairroapi
     },
     {
       "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\attellias\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\funcionario\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -64,10 +79,6 @@
       "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\attellias\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\agenciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\agenciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\attellias\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\agencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\models\\agencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -92,11 +103,28 @@
         {
           "DockedWidth": 200,
 <<<<<<< HEAD
+<<<<<<< HEAD
           "SelectedChildIndex": 3,
 =======
           "SelectedChildIndex": 2,
 >>>>>>> feat/elias/cidadeapi
+=======
+          "SelectedChildIndex": 0,
+>>>>>>> feat/elias/bairroapi
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\AttEllias\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\appsettings.json",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\appsettings.json",
+              "ToolTip": "E:\\AttEllias\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\appsettings.json*",
+              "RelativeToolTip": "PrjFinanceiro\\appsettings.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-18T11:47:10.807Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:764764211:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
@@ -104,6 +132,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+<<<<<<< HEAD
 <<<<<<< HEAD
               "Title": "EstadoCreateDto.cs",
               "DocumentMoniker": "E:\\AttEllias\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\DTOs\\EstadoCreateDto.cs",
@@ -113,10 +142,21 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-16T13:18:54.494Z",
+=======
+              "Title": "BairroApiController.cs",
+              "DocumentMoniker": "E:\\AttEllias\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\BairroApiController.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\BairroApiController.cs",
+              "ToolTip": "E:\\AttEllias\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\BairroApiController.cs*",
+              "RelativeToolTip": "PrjFinanceiro\\Controllers\\BairroApiController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T11:43:01.505Z",
+>>>>>>> feat/elias/bairroapi
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 1,
               "Title": "EstadoApiController.cs",
               "DocumentMoniker": "E:\\AttEllias\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\EstadoApiController.cs",
@@ -169,6 +209,9 @@
 =======
               "DocumentIndex": 3,
 >>>>>>> feat/elias/cidadeapi
+=======
+              "DocumentIndex": 3,
+>>>>>>> feat/elias/bairroapi
               "Title": "Cidade.cs",
               "DocumentMoniker": "E:\\AttEllias\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Cidade.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\Cidade.cs",
@@ -204,19 +247,27 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 12,
+=======
+              "DocumentIndex": 1,
+>>>>>>> feat/elias/bairroapi
               "Title": "AgenciaController.cs",
               "DocumentMoniker": "E:\\AttEllias\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\AgenciaController.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\AgenciaController.cs",
               "ToolTip": "E:\\AttEllias\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\AgenciaController.cs",
               "RelativeToolTip": "PrjFinanceiro\\Controllers\\AgenciaController.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAUwE8AAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-11T12:36:00.64Z"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 13,
+=======
+              "DocumentIndex": 12,
+>>>>>>> feat/elias/bairroapi
               "Title": "Agencia.cs",
               "DocumentMoniker": "E:\\AttEllias\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Agencia.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\Agencia.cs",
@@ -228,7 +279,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 16,
+=======
+              "DocumentIndex": 15,
+>>>>>>> feat/elias/bairroapi
               "Title": "Excluir.cshtml",
               "DocumentMoniker": "E:\\AttEllias\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Funcionario\\Excluir.cshtml",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Funcionario\\Excluir.cshtml",
@@ -241,10 +296,14 @@
             {
               "$type": "Document",
 <<<<<<< HEAD
+<<<<<<< HEAD
               "DocumentIndex": 3,
 =======
               "DocumentIndex": 6,
 >>>>>>> feat/elias/cidadeapi
+=======
+              "DocumentIndex": 6,
+>>>>>>> feat/elias/bairroapi
               "Title": "Editar.cshtml",
               "DocumentMoniker": "E:\\AttEllias\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Funcionario\\Editar.cshtml",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Funcionario\\Editar.cshtml",
@@ -257,7 +316,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 15,
+=======
+              "DocumentIndex": 14,
+>>>>>>> feat/elias/bairroapi
               "Title": "Criar.cshtml",
               "DocumentMoniker": "E:\\AttEllias\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Funcionario\\Criar.cshtml",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Funcionario\\Criar.cshtml",
@@ -269,6 +332,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
 <<<<<<< HEAD
               "DocumentIndex": 6,
               "Title": "Funcionario.cs",
@@ -286,6 +350,9 @@
 =======
               "DocumentIndex": 4,
 >>>>>>> feat/elias/cidadeapi
+=======
+              "DocumentIndex": 4,
+>>>>>>> feat/elias/bairroapi
               "Title": "FuncionarioController.cs",
               "DocumentMoniker": "E:\\AttEllias\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\FuncionarioController.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\FuncionarioController.cs",
@@ -293,6 +360,7 @@
               "RelativeToolTip": "PrjFinanceiro\\Controllers\\FuncionarioController.cs",
               "ViewState": "AgIAADsAAAAAAAAAAADwv08AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
               "WhenOpened": "2026-05-11T12:13:56.942Z"
             },
             {
@@ -300,6 +368,13 @@
 <<<<<<< HEAD
               "DocumentIndex": 4,
 =======
+=======
+              "WhenOpened": "2026-05-11T12:13:56.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+>>>>>>> feat/elias/bairroapi
               "DocumentIndex": 8,
               "Title": "Funcionario.cs",
               "DocumentMoniker": "E:\\AttEllias\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Funcionario.cs",
@@ -314,7 +389,10 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
+<<<<<<< HEAD
 >>>>>>> feat/elias/cidadeapi
+=======
+>>>>>>> feat/elias/bairroapi
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\AttEllias\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Funcionario\\Index.cshtml",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Funcionario\\Index.cshtml",
@@ -339,10 +417,14 @@
             {
               "$type": "Document",
 <<<<<<< HEAD
+<<<<<<< HEAD
               "DocumentIndex": 7,
 =======
               "DocumentIndex": 9,
 >>>>>>> feat/elias/cidadeapi
+=======
+              "DocumentIndex": 9,
+>>>>>>> feat/elias/bairroapi
               "Title": "Criar.cshtml",
               "DocumentMoniker": "E:\\AttEllias\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Agencia\\Criar.cshtml",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Agencia\\Criar.cshtml",
@@ -354,7 +436,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 14,
+=======
+              "DocumentIndex": 13,
+>>>>>>> feat/elias/bairroapi
               "Title": "Bairro.cs",
               "DocumentMoniker": "E:\\AttEllias\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Bairro.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\Bairro.cs",
@@ -363,6 +449,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAIAwwAoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-11T12:06:48.286Z"
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
             }
@@ -385,6 +472,8 @@
               "WhenOpened": "2026-05-18T11:08:28.946Z",
               "EditorCaption": ""
 >>>>>>> feat/elias/cidadeapi
+=======
+>>>>>>> feat/elias/bairroapi
             }
           ]
         }
