@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\manha.cetafest\\Documents\\liunardoArqs\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\liunardoarqs\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\dtos\\escolaridadecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\dtos\\escolaridadecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\liunardoarqs\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\agenciaapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\agenciaapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\liunardoarqs\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\escolaridadeapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\escolaridadeapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\liunardoarqs\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\dtos\\etniacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\dtos\\etniacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\liunardoarqs\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\liunardoarqs\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\dtos\\agenciacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\dtos\\agenciacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\liunardoarqs\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\escolaridade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,20 +67,8 @@
       "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\liunardoarqs\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\dtos\\agenciacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\dtos\\agenciacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\liunardoarqs\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\agenciaapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\agenciaapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\liunardoarqs\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\liunardoarqs\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\liunardoarqs\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\contabancaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -110,50 +106,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EscolaridadeCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\liunardoArqs\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\DTOs\\EscolaridadeCreateDto.cs",
-              "RelativeDocumentMoniker": "PrjFinanceiro\\DTOs\\EscolaridadeCreateDto.cs",
-              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\liunardoArqs\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\DTOs\\EscolaridadeCreateDto.cs*",
-              "RelativeToolTip": "PrjFinanceiro\\DTOs\\EscolaridadeCreateDto.cs*",
+              "DocumentIndex": 1,
+              "Title": "EtniaCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\liunardoArqs\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\DTOs\\EtniaCreateDto.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\DTOs\\EtniaCreateDto.cs",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\liunardoArqs\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\DTOs\\EtniaCreateDto.cs",
+              "RelativeToolTip": "PrjFinanceiro\\DTOs\\EtniaCreateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T12:05:15.965Z",
+              "WhenOpened": "2026-05-18T12:11:11.93Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EscolaridadeApiController.cs",
-              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\liunardoArqs\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\EscolaridadeApiController.cs",
-              "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\EscolaridadeApiController.cs",
-              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\liunardoArqs\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\EscolaridadeApiController.cs*",
-              "RelativeToolTip": "PrjFinanceiro\\Controllers\\EscolaridadeApiController.cs*",
-              "ViewState": "AgIAADQAAAAAAAAAAAAcwE4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T12:05:28.44Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EstadoController.cs",
-              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\liunardoArqs\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\EstadoController.cs",
-              "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\EstadoController.cs",
-              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\liunardoArqs\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\EstadoController.cs",
-              "RelativeToolTip": "PrjFinanceiro\\Controllers\\EstadoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T11:24:42.739Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "EscolaridadeController.cs",
               "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\liunardoArqs\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\EscolaridadeController.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\EscolaridadeController.cs",
@@ -166,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AgenciaController.cs",
               "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\liunardoArqs\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\AgenciaController.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\AgenciaController.cs",
@@ -179,20 +149,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 0,
               "Title": "AgenciaApiController.cs",
               "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\liunardoArqs\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\AgenciaApiController.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\AgenciaApiController.cs",
-              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\liunardoArqs\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\AgenciaApiController.cs",
-              "RelativeToolTip": "PrjFinanceiro\\Controllers\\AgenciaApiController.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAA4wAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\liunardoArqs\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\AgenciaApiController.cs*",
+              "RelativeToolTip": "PrjFinanceiro\\Controllers\\AgenciaApiController.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwBIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-18T11:24:32.709Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\liunardoArqs\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Home\\Index.cshtml",
@@ -205,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Estado.cs",
               "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\liunardoArqs\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Estado.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\Estado.cs",
@@ -218,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\liunardoArqs\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Home\\Privacy.cshtml",
@@ -231,7 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\liunardoArqs\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Shared\\_Layout.cshtml",
@@ -244,7 +214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\liunardoArqs\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\AppDbContext.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\AppDbContext.cs",
@@ -257,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\liunardoArqs\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -270,20 +240,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Escolaridade.cs",
               "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\liunardoArqs\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Escolaridade.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\Escolaridade.cs",
               "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\liunardoArqs\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Escolaridade.cs",
               "RelativeToolTip": "PrjFinanceiro\\Models\\Escolaridade.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-13T12:42:02.837Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 3,
               "Title": "AgenciaCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\liunardoArqs\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\DTOs\\AgenciaCreateDto.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\DTOs\\AgenciaCreateDto.cs",
@@ -296,7 +266,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\liunardoArqs\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\liunardoArqs\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "PrjFinanceiro\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T12:37:18.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EstadoController.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\liunardoArqs\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\EstadoController.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\EstadoController.cs",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\liunardoArqs\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\EstadoController.cs",
+              "RelativeToolTip": "PrjFinanceiro\\Controllers\\EstadoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T11:24:42.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\liunardoArqs\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\appsettings.json",
               "RelativeDocumentMoniker": "PrjFinanceiro\\appsettings.json",
@@ -309,7 +305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\liunardoArqs\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Program.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Program.cs",
@@ -322,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "EmprestimoTest.cs",
               "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\liunardoArqs\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\FinanceiroTest\\EmprestimoTest.cs",
               "RelativeDocumentMoniker": "FinanceiroTest\\EmprestimoTest.cs",
@@ -335,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "ContaBancaria.cs",
               "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\liunardoArqs\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\ContaBancaria.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\ContaBancaria.cs",
@@ -344,19 +340,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-18T11:24:51.509Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\liunardoArqs\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\liunardoArqs\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "PrjFinanceiro\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T12:37:18.88Z",
               "EditorCaption": ""
             },
             {
@@ -374,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "Funcionario.cs",
               "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\liunardoArqs\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Funcionario.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\Funcionario.cs",
@@ -386,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "Etnia.cs",
               "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\liunardoArqs\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Etnia.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\Etnia.cs",
@@ -398,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\liunardoArqs\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Shared\\Error.cshtml",
@@ -410,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\liunardoArqs\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\_ViewImports.cshtml",
@@ -422,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\liunardoArqs\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\_ViewStart.cshtml",
