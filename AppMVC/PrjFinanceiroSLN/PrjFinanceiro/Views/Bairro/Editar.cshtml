@@ -1,6 +1,47 @@
+<<<<<<< HEAD
 ﻿namespace PrjFinanceiro.Views.Bairro
 {
     public class Editar
     {
     }
 }
+=======
+﻿@model PrjFinanceiro.Models.Bairro
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header bg-primary text-white">
+            <h2>Editar Bairro</h2>
+        </div>
+        <div class="card-body">
+            <form action="/Bairro/Editar" method="post">
+
+                <input type="hidden" name="codigo" value="@Model.Codigo" />
+
+                <div class="form-group mb-3">
+                    <label for="nomebairro">Nome do Bairro</label>
+                    <input type="text" id="nomebairro" name="nomebairro" class="form-control" value="@Model.NomeBairro" required />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="codigocidade">Cidade Pertencente</label>
+                    <select id="codigocidade" name="codigocidade" class="form-control" required>
+                        @foreach (var cidade in ViewBag.Cidades)
+                        {
+                            <option value="@cidade.Codigo" selected="@(cidade.Codigo == Model.CodigoCidade ? "selected" : null)">
+                                @cidade.NomeCidade
+                            </option>
+                        }
+                    </select>
+                </div>
+
+                <div class="form-group mt-4">
+                    <button type="submit" class="btn btn-primary">Salvar Alterações</button>
+                    <a href="/Bairro/Index" class="btn btn-secondary">Cancelar</a>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+>>>>>>> origin/dayvisson/dev

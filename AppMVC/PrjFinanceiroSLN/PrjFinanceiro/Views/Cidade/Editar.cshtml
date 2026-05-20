@@ -1,6 +1,52 @@
+<<<<<<< HEAD
 ﻿namespace PrjFinanceiro.Views.Cidade
 {
     public class Editar
     {
     }
 }
+=======
+﻿@model PrjFinanceiro.Models.Cidade
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header bg-primary text-white">
+            <h2>Editar Cidade</h2>
+        </div>
+        <div class="card-body">
+            <form action="/Cidade/Editar" method="post">
+
+                <input type="hidden" name="codigo" value="@Model.Codigo" />
+
+                <div class="form-group mb-3">
+                    <label for="nomecidade">Nome da Cidade</label>
+                    <input type="text" id="nomecidade" name="nomecidade" class="form-control" value="@Model.NomeCidade" required />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="codigoibge">Código IBGE</label>
+                    <input type="text" id="codigoibge" name="codigoibge" class="form-control" value="@Model.CodigoIBGE" required />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="codigoestado">Estado (UF)</label>
+                    <select id="codigoestado" name="codigoestado" class="form-control" required>
+                        @foreach (var estado in ViewBag.Estados)
+                        {
+                            <option value="@estado.Codigo" selected="@(estado.Codigo == Model.CodigoEstado ? "selected" : null)">
+                                @estado.Sigla - @estado.NomeEstado
+                            </option>
+                        }
+                    </select>
+                </div>
+
+                <div class="form-group mt-4">
+                    <button type="submit" class="btn btn-primary">Salvar Alterações</button>
+                    <a href="/Cidade/Index" class="btn btn-secondary">Cancelar</a>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+>>>>>>> origin/dayvisson/dev

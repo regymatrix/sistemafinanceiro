@@ -1,0 +1,35 @@
+﻿@model PrjFinanceiro.Models.Bairro
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header bg-success text-white">
+            <h2>Cadastrar Novo Bairro</h2>
+        </div>
+        <div class="card-body">
+            <form action="/Bairro/Criar" method="post">
+
+                <div class="form-group mb-3">
+                    <label for="nomebairro">Nome do Bairro</label>
+                    <input type="text" id="nomebairro" name="nomebairro" class="form-control" required />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="codigocidade">Cidade Pertencente</label>
+                    <select id="codigocidade" name="codigocidade" class="form-control" required>
+                        <option value="">-- Selecione a Cidade --</option>
+                        @foreach (var cidade in ViewBag.Cidades)
+                        {
+                            <option value="@cidade.Codigo">@cidade.NomeCidade</option>
+                        }
+                    </select>
+                </div>
+
+                <div class="form-group mt-4">
+                    <button type="submit" class="btn btn-primary">Salvar Bairro</button>
+                    <a href="/Bairro/Index" class="btn btn-secondary">Voltar para a Lista</a>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>

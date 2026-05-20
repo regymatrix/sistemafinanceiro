@@ -1,0 +1,73 @@
+﻿@model PrjFinanceiro.Models.ContaBancaria
+
+<div class="container mt-5">
+    <div class="card">
+
+        <div class="card-header bg-success text-white">
+            <h2>Cadastrar Conta Bancária</h2>
+        </div>
+
+        <div class="card-body">
+
+            <form action="/ContaBancaria/Criar" method="post">
+
+                <div class="form-group mb-3">
+                    <label>Código Cliente</label>
+                    <input type="number"
+                           name="codigoCliente"
+                           class="form-control"
+                           required />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label>Código Agência</label>
+                    <input type="number"
+                           name="codigoAgencia"
+                           class="form-control"
+                           required />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label>Número Conta</label>
+                    <input type="number"
+                           name="numeroConta"
+                           class="form-control"
+                           required />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label>Status Conta</label>
+
+                    <select name="statusConta" class="form-control">
+                        <option value="true">Ativa</option>
+                        <option value="false">Inativa</option>
+                    </select>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label>Tipo Conta</label>
+
+                    <input type="text"
+                           name="tipoConta"
+                           class="form-control"
+                           required />
+                </div>
+
+                <div class="form-group mt-4">
+
+                    <button type="submit" class="btn btn-primary">
+                        Salvar Conta
+                    </button>
+
+                    <a href="/ContaBancaria/Index"
+                       class="btn btn-secondary">
+                        Voltar
+                    </a>
+
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+</div>

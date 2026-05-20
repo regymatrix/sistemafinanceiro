@@ -17,12 +17,20 @@ namespace PrjFinanceiro.Controllers
             _context = context;
         }
 
-        [HttpGet]
+        [HttpGet("lista")]
         public IActionResult ListarTodos()
         {
             var agencias = _context.Agencia.ToList();
             return Ok(agencias); // Status HTTP 200 OK com o JSON da lista
         }
+
+        [HttpGet("ativas")]
+        public IActionResult ListarTodos2()
+        {
+            var agencias = _context.Agencia.ToList();
+            return Ok(agencias); // Status HTTP 200 OK com o JSON da lista
+        }
+
 
         [HttpGet("{id}")]
         public IActionResult BuscarPorId(int id)
