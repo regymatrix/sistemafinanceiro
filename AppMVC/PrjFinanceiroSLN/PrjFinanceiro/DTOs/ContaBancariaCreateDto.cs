@@ -1,5 +1,7 @@
-﻿using System;
+﻿using PrjFinanceiro.Models;
+using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace PrjFinanceiro.DTOs
 {
@@ -20,6 +22,8 @@ namespace PrjFinanceiro.DTOs
         public bool StatusConta { get; set; }
 
         public int? CodigoCliente { get; set; }
-        public int? CodigoAgencia { get; set; }
+        public int CodigoAgencia { get; set; }
+        [ForeignKey("CodigoAgencia")]
+        public virtual Agencia Agencia { get; set; }
     }
 }

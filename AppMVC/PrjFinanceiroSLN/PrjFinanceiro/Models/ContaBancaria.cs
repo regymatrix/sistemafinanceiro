@@ -18,5 +18,6 @@ namespace PrjFinanceiro.Models
 
         [ForeignKey("CodigoCliente")]
         public virtual Cliente ClienteRel { get; set; }
+        public int CodigoAgencia { get; internal set; }
     }
 }
