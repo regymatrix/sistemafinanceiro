@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\eliasprojetos\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\eliasprojetos\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\eliasprojetos\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\cidadeapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\cidadeapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\eliasprojetos\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\services\\cidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\models\\services\\cidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\eliasprojetos\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|e:\\eliasprojetos\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\services\\escolaridade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,11 +54,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\Cliente.cs",
+              "ToolTip": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Cliente.cs",
+              "RelativeToolTip": "PrjFinanceiro\\Models\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T12:37:57.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Cidade.cs",
               "DocumentMoniker": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Services\\Cidade.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\Services\\Cidade.cs",
@@ -62,12 +79,11 @@
               "RelativeToolTip": "PrjFinanceiro\\Models\\Services\\Cidade.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T12:20:08.117Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T12:20:08.117Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "CidadeController.cs",
               "DocumentMoniker": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\CidadeController.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\CidadeController.cs",
@@ -75,12 +91,11 @@
               "RelativeToolTip": "PrjFinanceiro\\Controllers\\CidadeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAG8AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T12:19:52.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T12:19:52.375Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CidadeApiController.cs",
               "DocumentMoniker": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\CidadeApiController.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\CidadeApiController.cs",
@@ -93,33 +108,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\AppDbContext.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\AppDbContext.cs",
-              "ToolTip": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\AppDbContext.cs",
-              "RelativeToolTip": "PrjFinanceiro\\Models\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA9AAAAAAAAAA==",
+              "ToolTip": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\AppDbContext.cs*",
+              "RelativeToolTip": "PrjFinanceiro\\Models\\AppDbContext.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-18T12:06:04.311Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Etnia.cs",
-              "DocumentMoniker": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Services\\Etnia.cs",
-              "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\Services\\Etnia.cs",
-              "ToolTip": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Services\\Etnia.cs",
-              "RelativeToolTip": "PrjFinanceiro\\Models\\Services\\Etnia.cs",
+              "DocumentIndex": 8,
+              "Title": "etnia.cs",
+              "DocumentMoniker": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Services\\etnia.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\Services\\etnia.cs",
+              "ToolTip": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Services\\etnia.cs",
+              "RelativeToolTip": "PrjFinanceiro\\Models\\Services\\etnia.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T12:02:59.906Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T12:02:59.906Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Criar.cshtml",
               "DocumentMoniker": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\escolaridade1\\Criar.cshtml",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\escolaridade1\\Criar.cshtml",
@@ -127,25 +141,23 @@
               "RelativeToolTip": "PrjFinanceiro\\Views\\escolaridade1\\Criar.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-18T11:40:52.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Escolaridade.cs",
-              "DocumentMoniker": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Services\\Escolaridade.cs",
-              "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\Services\\Escolaridade.cs",
-              "ToolTip": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Services\\Escolaridade.cs",
-              "RelativeToolTip": "PrjFinanceiro\\Models\\Services\\Escolaridade.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T11:40:07.302Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T11:40:52.474Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "escolaridade.cs",
+              "DocumentMoniker": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Services\\escolaridade.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\Services\\escolaridade.cs",
+              "ToolTip": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Services\\escolaridade.cs",
+              "RelativeToolTip": "PrjFinanceiro\\Models\\Services\\escolaridade.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T11:40:07.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "FuncionarioController.cs",
               "DocumentMoniker": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\FuncionarioController.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\FuncionarioController.cs",
@@ -153,12 +165,11 @@
               "RelativeToolTip": "PrjFinanceiro\\Controllers\\FuncionarioController.cs",
               "ViewState": "AgIAAGsAAAAAAAAAAAAuwH4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T17:05:06.381Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-24T17:05:06.381Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Funcionario.cs",
               "DocumentMoniker": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Funcionario.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\Funcionario.cs",
@@ -166,12 +177,11 @@
               "RelativeToolTip": "PrjFinanceiro\\Models\\Funcionario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T17:04:52.069Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-24T17:04:52.069Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\EliasProjetos\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\appsettings.json",
               "RelativeDocumentMoniker": "PrjFinanceiro\\appsettings.json",
