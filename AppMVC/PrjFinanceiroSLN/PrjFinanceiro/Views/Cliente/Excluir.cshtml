@@ -1,0 +1,25 @@
+﻿@model PrjFinanceiro.Models.Cliente
+
+<div class="container mt-5">
+    <div class="card border-danger shadow">
+        <div class="card-header bg-danger text-white"><h2>Excluir Cliente</h2></div>
+        <div class="card-body">
+            <h4 class="text-danger mb-4">Tem certeza que deseja remover este cliente permanentemente?</h4>
+            <dl class="row">
+                <dt class="col-sm-3">Nome:</dt>
+                <dd class="col-sm-9">@Model.Nome</dd>
+                <dt class="col-sm-3">Tipo de Cliente:</dt>
+                <dd class="col-sm-9">@Model.TipoCliente</dd>
+                <dt class="col-sm-3">Documento:</dt>
+                <dd class="col-sm-9">@(Model.TipoCliente == "Física" ? Model.CPF : Model.CNPJ)</dd>
+                <dt class="col-sm-3">Bairro de Vínculo:</dt>
+                <dd class="col-sm-9">@(Model.BairroRel?.NomeBairro)</dd>
+            </dl>
+            <form action="/Cliente/ExcluirConfirmado" method="post">
+                <input type="hidden" name="codigo" value="@Model.Codigo" />
+                <button type="submit" class="btn btn-danger">Confirmar Exclusão</button>
+                <a href="/Cliente/Index" class="btn btn-secondary">Cancelar</a>
+            </form>
+        </div>
+    </div>
+</div>

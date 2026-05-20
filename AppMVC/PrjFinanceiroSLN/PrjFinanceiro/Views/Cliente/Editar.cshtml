@@ -1,0 +1,55 @@
+﻿@model PrjFinanceiro.Models.Cliente
+
+<div class="container mt-5">
+    <div class="card shadow">
+        <div class="card-header bg-primary text-white"><h2>Editar Cliente</h2></div>
+        <div class="card-body">
+            <form action="/Cliente/Editar" method="post">
+                <input type="hidden" name="codigo" value="@Model.Codigo" />
+                <div class="row mb-3">
+                    <div class="col-md-8"><label>Nome / Razão Social</label><input type="text" name="nome" class="form-control" value="@Model.Nome" required /></div>
+                    <div class="col-md-4"><label>Data</label><input type="date" name="data" class="form-control" value="@Model.DataNascimento.ToString("yyyy-MM-dd")" required /></div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <label>Tipo de Cliente</label>
+                        <select name="tipoCliente" id="txtTipo" class="form-select" required>
+                            <option value="Física" selected="@(Model.TipoCliente == "Física" ? "selected" : null)">Pessoa Física</option>
+                            <option value="Jurídica" selected="@(Model.TipoCliente == "Jurídica" ? "selected" : null)">Pessoa Jurídica</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4 @(Model.TipoCliente == "Jurídica" ? "d-none" : "")" id="divCPF"><label>CPF</label><input type="text" name="cpf" class="form-control mask-cpf" value="@Model.CPF" /></div>
+                    <div class="col-md-4 @(Model.TipoCliente == "Física" ? "d-none" : "")" id="divCNPJ"><label>CNPJ</label><input type="text" name="cnpj" class="form-control mask-cnpj" value="@Model.CNPJ" /></div>
+                    <div class="col-md-4">
+                        <label>Bairro</label>
+                        <select name="codigoBairro" class="form-select" required>
+                            @foreach (var b in ViewBag.Bairros)
+                            {
+                                <option value="@b.Codigo" selected="@(b.Codigo == Model.CodigoBairro ? "selected" : null)">@b.NomeBairro</option>
+                            }
+                        </select>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Salvar Alterações</button>
+                <a href="/Cliente/Index" class="btn btn-secondary">Cancelar</a>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.mask-cpf').mask('000.000.000-00');
+            $('.mask-cnpj').mask('00.000.000/0000-00');
+            $('#txtTipo').change(function() {
+                if ($(this).val() == 'Física') {
+                    $('#divCPF').removeClass('d-none'); $('#divCNPJ').addClass('d-none');
+                } else {
+                    $('#divCNPJ').removeClass('d-none'); $('#divCPF').addClass('d-none');
+                }
+            });
+        });
+    </script>
+}

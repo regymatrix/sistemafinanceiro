@@ -1,0 +1,55 @@
+﻿@model PrjFinanceiro.Models.Cliente
+
+<div class="container mt-5">
+    <div class="card shadow">
+        <div class="card-header bg-success text-white"><h2>Cadastrar Novo Cliente</h2></div>
+        <div class="card-body">
+            <form action="/Cliente/Criar" method="post">
+                <div class="row mb-3">
+                    <div class="col-md-8"><label>Nome / Razão Social</label><input type="text" name="nome" class="form-control" required /></div>
+                    <div class="col-md-4"><label>Data de Nascimento / Fundação</label><input type="date" name="data" class="form-control" required /></div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <label>Tipo de Cliente</label>
+                        <select name="tipoCliente" id="txtTipo" class="form-select" required>
+                            <option value="Física">Pessoa Física</option>
+                            <option value="Jurídica">Pessoa Jurídica</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4" id="divCPF"><label>CPF</label><input type="text" name="cpf" class="form-control mask-cpf" /></div>
+                    <div class="col-md-4 d-none" id="divCNPJ"><label>CNPJ</label><input type="text" name="cnpj" class="form-control mask-cnpj" /></div>
+                    <div class="col-md-4">
+                        <label>Bairro</label>
+                        <select name="codigoBairro" class="form-select" required>
+                            <option value="">-- SELECIONE --</option>
+                            @foreach (var b in ViewBag.Bairros)
+                            {
+                                <option value="@b.Codigo">@b.NomeBairro</option>
+                            }
+                        </select>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Salvar Cliente</button>
+                <a href="/Cliente/Index" class="btn btn-secondary">Voltar</a>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.mask-cpf').mask('000.000.000-00');
+            $('.mask-cnpj').mask('00.000.000/0000-00');
+            $('#txtTipo').change(function() {
+                if ($(this).val() == 'Física') {
+                    $('#divCPF').removeClass('d-none'); $('#divCNPJ').addClass('d-none');
+                } else {
+                    $('#divCNPJ').removeClass('d-none'); $('#divCPF').addClass('d-none');
+                }
+            });
+        });
+    </script>
+}
