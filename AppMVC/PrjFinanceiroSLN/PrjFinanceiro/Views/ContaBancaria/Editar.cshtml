@@ -1,0 +1,53 @@
+﻿@model PrjFinanceiro.Models.ContaBancaria
+
+<div class="container mt-5">
+    <div class="card shadow">
+        <div class="card-header bg-primary text-white"><h2>Alterar Conta Bancária</h2></div>
+        <div class="card-body">
+            <form action="/ContaBancaria/Editar" method="post">
+                <input type="hidden" name="numeroConta" value="@Model.NumeroConta" />
+
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <label>Número da Conta</label>
+                        <input type="number" class="form-control" value="@Model.NumeroConta" disabled />
+                    </div>
+                    <div class="col-md-4">
+                        <label>Código da Agência</label>
+                        <input type="number" name="codigoAgencia" class="form-control" value="@Model.CodigoAgencia" required />
+                    </div>
+                    <div class="col-md-4">
+                        <label>Titular / Cliente</label>
+                        <select name="codigoCliente" class="form-select" required>
+                            @foreach (var cl in ViewBag.Clientes)
+                            {
+                                <option value="@cl.Codigo" selected="@(cl.Codigo == Model.CodigoCliente ? "selected" : null)">@cl.Nome</option>
+                            }
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label>Tipo de Conta</label>
+                        <select name="tipoConta" class="form-select" required>
+                            <option value="Corrente" selected="@(Model.TipoConta == "Corrente" ? "selected" : null)">Conta Corrente</option>
+                            <option value="Poupança" selected="@(Model.TipoConta == "Poupança" ? "selected" : null)">Conta Poupança</option>
+                            <option value="Salário" selected="@(Model.TipoConta == "Salário" ? "selected" : null)">Conta Salário</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label>Status da Conta</label>
+                        <select name="statusConta" class="form-select" required>
+                            <option value="1" selected="@(Model.StatusConta ? "selected" : null)">Ativa</option>
+                            <option value="0" selected="@(!Model.StatusConta ? "selected" : null)">Inativa</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Salvar Alterações</button>
+                <a href="/ContaBancaria/Index" class="btn btn-secondary">Cancelar</a>
+            </form>
+        </div>
+    </div>
+</div>

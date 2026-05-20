@@ -1,12 +1,27 @@
-﻿namespace PrjFinanceiro.Models
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace PrjFinanceiro.Models
 {
     public class ContaBancaria
     {
-        public string NumeroConta { get; set; }
-        public decimal Saldo { get; set; }
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)] // O número da conta é digitado pelo usuário, não é Identity
+        public int NumeroConta { get; set; }
 
-        public Cliente Cliente { get; set; }
-        public Agencia Agencia { get; set; }
+        [Required]
+        public int CodigoCliente { get; set; }
 
+        [Required]
+        public int CodigoAgencia { get; set; }
+
+        [Required]
+        public bool StatusConta { get; set; }
+
+        [Required]
+        public string TipoConta { get; set; }
+
+        [ForeignKey("CodigoCliente")]
+        public virtual Cliente? ClienteRel { get; set; }
     }
 }

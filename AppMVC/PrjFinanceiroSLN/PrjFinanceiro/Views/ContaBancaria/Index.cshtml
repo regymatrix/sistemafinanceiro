@@ -1,0 +1,39 @@
+﻿@model IEnumerable<PrjFinanceiro.Models.ContaBancaria>
+
+<div class="container mt-5">
+    <h2>Gerenciamento de Contas Bancárias</h2>
+    <a href="/ContaBancaria/Criar" class="btn btn-success mb-3">Nova Conta Bancária</a>
+
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>Nº Conta</th>
+                <th>Agência</th>
+                <th>Cliente</th>
+                <th>Tipo</th>
+                <th>Status</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.NumeroConta</td>
+                    <td>@item.CodigoAgencia</td>
+                    <td>@(item.ClienteRel?.Nome ?? "Não associado")</td>
+                    <td>@item.TipoConta</td>
+                    <td>
+                        <span class="badge @(item.StatusConta ? "bg-success" : "bg-danger")">
+                            @(item.StatusConta ? "Ativa" : "Inativa")
+                        </span>
+                    </td>
+                    <td>
+                        <a href="/ContaBancaria/Editar/@item.NumeroConta" class="btn btn-sm btn-primary">Editar</a>
+                        <a href="/ContaBancaria/Excluir/@item.NumeroConta" class="btn btn-sm btn-danger">Excluir</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

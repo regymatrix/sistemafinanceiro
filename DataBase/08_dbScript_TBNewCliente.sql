@@ -1,14 +1,12 @@
--- Adiciona a coluna CodigoCidade e cria o relacionamento
 use dbFinanceiro;
 
-ALTER TABLE Funcionario ADD CodigoCidade INT;
-ALTER TABLE Funcionario ADD CONSTRAINT FK_Funcionario_Cidade 
-FOREIGN KEY (CodigoCidade) REFERENCES Cidade(Codigo);
-
--- Adiciona a coluna CodigoBairro e cria o relacionamento
-ALTER TABLE Funcionario ADD CodigoBairro INT;
-ALTER TABLE Funcionario ADD CONSTRAINT FK_Funcionario_Bairro 
-FOREIGN KEY (CodigoBairro) REFERENCES Bairro(Codigo);
-
-DELETE FROM FUNCIONARIO;
-SELECT * FROM FUNCIONARIO;
+CREATE TABLE Cliente (
+    Codigo INT IDENTITY(1,1) PRIMARY KEY,
+    Nome VARCHAR(150) NOT NULL,
+    DataNascimento DATETIME NOT NULL,
+    TipoCliente VARCHAR(20) NOT NULL, -- Ex: "Física" ou "Jurídica"
+    CPF VARCHAR(14) NULL,
+    CNPJ VARCHAR(18) NULL,
+    CodigoBairro INT NOT NULL,
+    CONSTRAINT FK_Cliente_Bairro FOREIGN KEY (CodigoBairro) REFERENCES Bairro(Codigo)
+);
