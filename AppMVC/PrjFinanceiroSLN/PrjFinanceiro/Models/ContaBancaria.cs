@@ -3,10 +3,9 @@
     public class ContaBancaria
     {
         public string NumeroConta { get; set; }
-        public decimal Saldo { get; set; }
-
-        public Cliente Cliente { get; set; }
-        public Agencia Agencia { get; set; }
-
+        public decimal StatusConta { get; set; }
+        public Cliente ContaCliente { get; set; }
+        public Agencia CodigoAgencia { get; set; }
+        public string TipoConta { get; set; }
     }
 }
