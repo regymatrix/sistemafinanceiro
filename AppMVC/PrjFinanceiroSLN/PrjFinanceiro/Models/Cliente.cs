@@ -9,7 +9,7 @@ namespace PrjFinanceiro.Models
         public string Nome { get; set; }
         public string TipoCliente { get; set; }
         public string CPF { get; set; }
-        public string CNPJ { get; set; }
+        public string CNPJ  { get; set; }
 
     }
 }

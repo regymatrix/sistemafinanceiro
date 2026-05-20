@@ -29,8 +29,8 @@ namespace PrjFinanceiro.DTOs
         
 
         [Required(ErrorMessage = "O código do Bairro é obrigatório.")]
-        public int CodigoBairro { get; set; }
+        public int  CodigoBairro { get; set; }
     }
-}
+} 
 
 
