@@ -1,122 +1,190 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\",
+  "WorkspaceRootPath": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\contabancaria\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\contabancaria\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\contabancaria\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\contabancaria\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\funcionarioapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\funcionarioapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\contabancaria\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\contabancaria\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\etniaapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\etniaapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\contabancaria\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\contabancaria\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\estadoapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\estadoapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\cliente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\cliente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\models\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\cliente\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\cliente\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\escolaridadeapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\escolaridadeapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\cliente\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\cliente\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\cidadeapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\cidadeapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\cliente\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\cliente\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\agenciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\agenciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\cidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\models\\cidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\cidadecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\cidadecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\dtos\\funcionariocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\dtos\\funcionariocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\dtos\\etniacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\dtos\\etniacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\dtos\\escolaridadecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\dtos\\escolaridadecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\dtos\\estadocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\dtos\\estadocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\dtos\\cidadecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\dtos\\cidadecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\dtos\\bairrocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\dtos\\bairrocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\bairro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\models\\bairro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\bairrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\bairrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\bairro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\bairro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\bairro\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\bairro\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\bairro\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\bairro\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\bairro\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\bairro\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\cidade\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\cidade\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\cidade\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\cidade\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\cidade\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\cidade\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\cidade\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\cidade\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\cidade\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\cidade\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\cidade\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\cidade\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\contabancariaapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\contabancariaapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\contabancariacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\contabancariacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\dtos\\contabancariacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\dtos\\contabancariacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\dtos\\cidadecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\dtos\\cidadecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\dtos\\clientecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\dtos\\clientecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\contabancaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\models\\contabancaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\services\\contabancaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\models\\services\\contabancaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\cidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\models\\cidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\dtos\\escolaridadecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\dtos\\escolaridadecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\dtos\\estadocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\dtos\\estadocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\dtos\\etniacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\dtos\\etniacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\dtos\\bairrocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\dtos\\bairrocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\clienteapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\clienteapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\agenciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\agenciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\cidadeapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\cidadeapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\funcionarioapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\funcionarioapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\etniaapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\etniaapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\estadoapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\estadoapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\models\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\escolaridadeapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\escolaridadeapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\cidadecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\cidadecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\dtos\\funcionariocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\dtos\\funcionariocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\models\\bairro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\models\\bairro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\bairrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\bairrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\bairro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\bairro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\bairro\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\bairro\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\bairro\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\bairro\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|c:\\users\\manha.cetafest\\documents\\github\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\appmvc\\prjfinanceirosln\\prjfinanceiro\\views\\bairro\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BADD79C3-6DBA-4555-A44F-C72C947E196D}|PrjFinanceiro\\PrjFinanceiro.csproj|solutionrelative:prjfinanceiro\\views\\bairro\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -126,149 +194,253 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\ContaBancaria\\Index.cshtml",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\ContaBancaria\\Index.cshtml",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\ContaBancaria\\Index.cshtml",
+              "RelativeToolTip": "PrjFinanceiro\\Views\\ContaBancaria\\Index.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAAEAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-20T13:38:48.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Excluir.cshtml",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\ContaBancaria\\Excluir.cshtml",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\ContaBancaria\\Excluir.cshtml",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\ContaBancaria\\Excluir.cshtml",
+              "RelativeToolTip": "PrjFinanceiro\\Views\\ContaBancaria\\Excluir.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAADYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-20T13:38:37.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\ContaBancaria\\Editar.cshtml",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\ContaBancaria\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\ContaBancaria\\Editar.cshtml",
+              "RelativeToolTip": "PrjFinanceiro\\Views\\ContaBancaria\\Editar.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAAE8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-20T13:38:25.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Criar.cshtml",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\ContaBancaria\\Criar.cshtml",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\ContaBancaria\\Criar.cshtml",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\ContaBancaria\\Criar.cshtml",
+              "RelativeToolTip": "PrjFinanceiro\\Views\\ContaBancaria\\Criar.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAAEgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-20T13:38:14.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Cliente\\Index.cshtml",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Cliente\\Index.cshtml",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Cliente\\Index.cshtml",
+              "RelativeToolTip": "PrjFinanceiro\\Views\\Cliente\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-20T13:36:49.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Excluir.cshtml",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Cliente\\Excluir.cshtml",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Cliente\\Excluir.cshtml",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Cliente\\Excluir.cshtml",
+              "RelativeToolTip": "PrjFinanceiro\\Views\\Cliente\\Excluir.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAADYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-20T13:36:39.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Cliente\\Editar.cshtml",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Cliente\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Cliente\\Editar.cshtml",
+              "RelativeToolTip": "PrjFinanceiro\\Views\\Cliente\\Editar.cshtml",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAAFQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-20T13:36:26.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Criar.cshtml",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Cliente\\Criar.cshtml",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Cliente\\Criar.cshtml",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Cliente\\Criar.cshtml",
+              "RelativeToolTip": "PrjFinanceiro\\Views\\Cliente\\Criar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-20T13:36:11.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ContaBancariaApiController.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\ContaBancariaApiController.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\ContaBancariaApiController.cs",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\ContaBancariaApiController.cs",
+              "RelativeToolTip": "PrjFinanceiro\\Controllers\\ContaBancariaApiController.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAYwIIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T13:34:19.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ContaBancariaCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\DTOs\\ContaBancariaCreateDto.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\DTOs\\ContaBancariaCreateDto.cs",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\DTOs\\ContaBancariaCreateDto.cs",
+              "RelativeToolTip": "PrjFinanceiro\\DTOs\\ContaBancariaCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T13:32:55.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ContaBancaria.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\ContaBancaria.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\ContaBancaria.cs",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\ContaBancaria.cs",
+              "RelativeToolTip": "PrjFinanceiro\\Models\\ContaBancaria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T13:32:02.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ContaBancariaController.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\ContaBancariaController.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\ContaBancariaController.cs",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\ContaBancariaController.cs",
+              "RelativeToolTip": "PrjFinanceiro\\Controllers\\ContaBancariaController.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAAwIEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T13:27:32.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ClienteCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\DTOs\\ClienteCreateDto.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\DTOs\\ClienteCreateDto.cs",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\DTOs\\ClienteCreateDto.cs",
+              "RelativeToolTip": "PrjFinanceiro\\DTOs\\ClienteCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T12:50:42.524Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FuncionarioApiController.cs",
-              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\FuncionarioApiController.cs",
-              "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\FuncionarioApiController.cs",
-              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\FuncionarioApiController.cs",
-              "RelativeToolTip": "PrjFinanceiro\\Controllers\\FuncionarioApiController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T11:58:12.561Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EtniaApiController.cs",
-              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\EtniaApiController.cs",
-              "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\EtniaApiController.cs",
-              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\EtniaApiController.cs",
-              "RelativeToolTip": "PrjFinanceiro\\Controllers\\EtniaApiController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAcwGgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T11:57:29.853Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EstadoApiController.cs",
-              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\EstadoApiController.cs",
-              "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\EstadoApiController.cs",
-              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\EstadoApiController.cs",
-              "RelativeToolTip": "PrjFinanceiro\\Controllers\\EstadoApiController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T11:55:08.289Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EscolaridadeApiController.cs",
-              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\EscolaridadeApiController.cs",
-              "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\EscolaridadeApiController.cs",
-              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\EscolaridadeApiController.cs",
-              "RelativeToolTip": "PrjFinanceiro\\Controllers\\EscolaridadeApiController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T11:51:39.092Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CidadeApiController.cs",
-              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\CidadeApiController.cs",
-              "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\CidadeApiController.cs",
-              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\CidadeApiController.cs",
-              "RelativeToolTip": "PrjFinanceiro\\Controllers\\CidadeApiController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T11:50:15.318Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "FuncionarioCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\DTOs\\FuncionarioCreateDto.cs",
-              "RelativeDocumentMoniker": "PrjFinanceiro\\DTOs\\FuncionarioCreateDto.cs",
-              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\DTOs\\FuncionarioCreateDto.cs",
-              "RelativeToolTip": "PrjFinanceiro\\DTOs\\FuncionarioCreateDto.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAwCQAAAABAAAAAAAAAA==",
+              "Title": "Criar.cshtml",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Cidade\\Criar.cshtml",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Cidade\\Criar.cshtml",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Cidade\\Criar.cshtml",
+              "RelativeToolTip": "PrjFinanceiro\\Views\\Cidade\\Criar.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-10T13:50:19.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Cidade\\Editar.cshtml",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Cidade\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Cidade\\Editar.cshtml",
+              "RelativeToolTip": "PrjFinanceiro\\Views\\Cidade\\Editar.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAACoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-10T13:51:16.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Excluir.cshtml",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Cidade\\Excluir.cshtml",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Cidade\\Excluir.cshtml",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Cidade\\Excluir.cshtml",
+              "RelativeToolTip": "PrjFinanceiro\\Views\\Cidade\\Excluir.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-10T13:51:33.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Cidade\\Index.cshtml",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Cidade\\Index.cshtml",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Cidade\\Index.cshtml",
+              "RelativeToolTip": "PrjFinanceiro\\Views\\Cidade\\Index.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAFwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-10T13:51:48.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ContaBancaria.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Services\\ContaBancaria.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\Services\\ContaBancaria.cs",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Services\\ContaBancaria.cs",
+              "RelativeToolTip": "PrjFinanceiro\\Models\\Services\\ContaBancaria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T11:47:00.356Z",
+              "WhenOpened": "2026-05-20T13:30:11.053Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Funcionario.cs",
-              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Funcionario.cs",
-              "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\Funcionario.cs",
-              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Funcionario.cs",
-              "RelativeToolTip": "PrjFinanceiro\\Models\\Funcionario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T17:04:52.069Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\appsettings.json",
-              "RelativeDocumentMoniker": "PrjFinanceiro\\appsettings.json",
-              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\appsettings.json",
-              "RelativeToolTip": "PrjFinanceiro\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-24T17:04:04.239Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "EtniaCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\DTOs\\EtniaCreateDto.cs",
-              "RelativeDocumentMoniker": "PrjFinanceiro\\DTOs\\EtniaCreateDto.cs",
-              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\DTOs\\EtniaCreateDto.cs",
-              "RelativeToolTip": "PrjFinanceiro\\DTOs\\EtniaCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T11:49:15.084Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "EscolaridadeCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\DTOs\\EscolaridadeCreateDto.cs",
-              "RelativeDocumentMoniker": "PrjFinanceiro\\DTOs\\EscolaridadeCreateDto.cs",
-              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\DTOs\\EscolaridadeCreateDto.cs",
-              "RelativeToolTip": "PrjFinanceiro\\DTOs\\EscolaridadeCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T11:47:41.361Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 23,
               "Title": "EstadoCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\DTOs\\EstadoCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\DTOs\\EstadoCreateDto.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\DTOs\\EstadoCreateDto.cs",
-              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\DTOs\\EstadoCreateDto.cs",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\DTOs\\EstadoCreateDto.cs",
               "RelativeToolTip": "PrjFinanceiro\\DTOs\\EstadoCreateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -277,50 +449,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CidadeCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\DTOs\\CidadeCreateDto.cs",
-              "RelativeDocumentMoniker": "PrjFinanceiro\\DTOs\\CidadeCreateDto.cs",
-              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\DTOs\\CidadeCreateDto.cs",
-              "RelativeToolTip": "PrjFinanceiro\\DTOs\\CidadeCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "DocumentIndex": 24,
+              "Title": "EtniaCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\DTOs\\EtniaCreateDto.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\DTOs\\EtniaCreateDto.cs",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\DTOs\\EtniaCreateDto.cs",
+              "RelativeToolTip": "PrjFinanceiro\\DTOs\\EtniaCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T11:42:32.694Z",
+              "WhenOpened": "2026-05-18T11:49:15.084Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Estado.cs",
-              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Estado.cs",
-              "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\Estado.cs",
-              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Estado.cs",
-              "RelativeToolTip": "PrjFinanceiro\\Models\\Estado.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 22,
+              "Title": "EscolaridadeCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\DTOs\\EscolaridadeCreateDto.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\DTOs\\EscolaridadeCreateDto.cs",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\DTOs\\EscolaridadeCreateDto.cs",
+              "RelativeToolTip": "PrjFinanceiro\\DTOs\\EscolaridadeCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T12:22:53.437Z",
+              "WhenOpened": "2026-05-18T11:47:41.361Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CidadeController.cs",
-              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\CidadeController.cs",
-              "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\CidadeController.cs",
-              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\CidadeController.cs",
-              "RelativeToolTip": "PrjFinanceiro\\Controllers\\CidadeController.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAAAF0AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-10T13:45:38.788Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 21,
               "Title": "Cidade.cs",
-              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Cidade.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Cidade.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\Cidade.cs",
-              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Cidade.cs",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Cidade.cs",
               "RelativeToolTip": "PrjFinanceiro\\Models\\Cidade.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -329,111 +488,236 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AgenciaController.cs",
-              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\AgenciaController.cs",
-              "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\AgenciaController.cs",
-              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\AgenciaController.cs",
-              "RelativeToolTip": "PrjFinanceiro\\Controllers\\AgenciaController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAlwBEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 20,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Cliente.cs",
+              "RelativeToolTip": "PrjFinanceiro\\Models\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T17:03:34.963Z",
+              "WhenOpened": "2026-05-20T12:32:04.244Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
+              "Title": "CidadeCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\DTOs\\CidadeCreateDto.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\DTOs\\CidadeCreateDto.cs",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\DTOs\\CidadeCreateDto.cs",
+              "RelativeToolTip": "PrjFinanceiro\\DTOs\\CidadeCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T11:42:32.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "BairroCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\DTOs\\BairroCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\DTOs\\BairroCreateDto.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\DTOs\\BairroCreateDto.cs",
-              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\DTOs\\BairroCreateDto.cs",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\DTOs\\BairroCreateDto.cs",
               "RelativeToolTip": "PrjFinanceiro\\DTOs\\BairroCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-18T11:37:09.629Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\AppDbContext.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\AppDbContext.cs",
               "RelativeToolTip": "PrjFinanceiro\\Models\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-11T12:24:21.632Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Cidade\\Index.cshtml",
-              "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Cidade\\Index.cshtml",
-              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Cidade\\Index.cshtml",
-              "RelativeToolTip": "PrjFinanceiro\\Views\\Cidade\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-10T13:51:48.312Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 26,
-              "Title": "Excluir.cshtml",
-              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Cidade\\Excluir.cshtml",
-              "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Cidade\\Excluir.cshtml",
-              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Cidade\\Excluir.cshtml",
-              "RelativeToolTip": "PrjFinanceiro\\Views\\Cidade\\Excluir.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-10T13:51:33.739Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Editar.cshtml",
-              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Cidade\\Editar.cshtml",
-              "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Cidade\\Editar.cshtml",
-              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Cidade\\Editar.cshtml",
-              "RelativeToolTip": "PrjFinanceiro\\Views\\Cidade\\Editar.cshtml",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAwwCoAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-10T13:51:16.692Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Criar.cshtml",
-              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Cidade\\Criar.cshtml",
-              "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Cidade\\Criar.cshtml",
-              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Cidade\\Criar.cshtml",
-              "RelativeToolTip": "PrjFinanceiro\\Views\\Cidade\\Criar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-10T13:50:19.132Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Bairro.cs",
-              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Bairro.cs",
-              "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\Bairro.cs",
-              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Bairro.cs",
-              "RelativeToolTip": "PrjFinanceiro\\Models\\Bairro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Title": "ClienteApiController.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\ClienteApiController.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\ClienteApiController.cs",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\ClienteApiController.cs",
+              "RelativeToolTip": "PrjFinanceiro\\Controllers\\ClienteApiController.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAwJUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-10T13:48:42.142Z",
+              "WhenOpened": "2026-05-20T12:35:53.776Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
+              "Title": "CidadeApiController.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\CidadeApiController.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\CidadeApiController.cs",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\CidadeApiController.cs",
+              "RelativeToolTip": "PrjFinanceiro\\Controllers\\CidadeApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T11:50:15.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "PrjFinanceiro\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAAwKsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T12:33:49.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "FuncionarioCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\DTOs\\FuncionarioCreateDto.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\DTOs\\FuncionarioCreateDto.cs",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\DTOs\\FuncionarioCreateDto.cs",
+              "RelativeToolTip": "PrjFinanceiro\\DTOs\\FuncionarioCreateDto.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T11:47:00.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "EscolaridadeApiController.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\EscolaridadeApiController.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\EscolaridadeApiController.cs",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\EscolaridadeApiController.cs",
+              "RelativeToolTip": "PrjFinanceiro\\Controllers\\EscolaridadeApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T11:51:39.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "EstadoApiController.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\EstadoApiController.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\EstadoApiController.cs",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\EstadoApiController.cs",
+              "RelativeToolTip": "PrjFinanceiro\\Controllers\\EstadoApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T11:55:08.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "EtniaApiController.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\EtniaApiController.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\EtniaApiController.cs",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\EtniaApiController.cs",
+              "RelativeToolTip": "PrjFinanceiro\\Controllers\\EtniaApiController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAcwGgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T11:57:29.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Funcionario.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Funcionario.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\Funcionario.cs",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Funcionario.cs",
+              "RelativeToolTip": "PrjFinanceiro\\Models\\Funcionario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T17:04:52.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AgenciaController.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\AgenciaController.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\AgenciaController.cs",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\AgenciaController.cs",
+              "RelativeToolTip": "PrjFinanceiro\\Controllers\\AgenciaController.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAmwIkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T17:03:34.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "FuncionarioApiController.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\FuncionarioApiController.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\FuncionarioApiController.cs",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\FuncionarioApiController.cs",
+              "RelativeToolTip": "PrjFinanceiro\\Controllers\\FuncionarioApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T11:58:12.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\appsettings.json",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\appsettings.json",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\appsettings.json",
+              "RelativeToolTip": "PrjFinanceiro\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-24T17:04:04.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Estado.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Estado.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\Estado.cs",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Estado.cs",
+              "RelativeToolTip": "PrjFinanceiro\\Models\\Estado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T12:22:53.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CidadeController.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\CidadeController.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\CidadeController.cs",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\CidadeController.cs",
+              "RelativeToolTip": "PrjFinanceiro\\Controllers\\CidadeController.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAAAF0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T13:45:38.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Bairro.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Bairro.cs",
+              "RelativeDocumentMoniker": "PrjFinanceiro\\Models\\Bairro.cs",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Models\\Bairro.cs",
+              "RelativeToolTip": "PrjFinanceiro\\Models\\Bairro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T13:48:42.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
               "Title": "Criar.cshtml",
-              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Bairro\\Criar.cshtml",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Bairro\\Criar.cshtml",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Bairro\\Criar.cshtml",
-              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Bairro\\Criar.cshtml",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Bairro\\Criar.cshtml",
               "RelativeToolTip": "PrjFinanceiro\\Views\\Bairro\\Criar.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -441,11 +725,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 43,
               "Title": "Excluir.cshtml",
-              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Bairro\\Excluir.cshtml",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Bairro\\Excluir.cshtml",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Bairro\\Excluir.cshtml",
-              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Bairro\\Excluir.cshtml",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Bairro\\Excluir.cshtml",
               "RelativeToolTip": "PrjFinanceiro\\Views\\Bairro\\Excluir.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -453,11 +737,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 44,
               "Title": "Editar.cshtml",
-              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Bairro\\Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Bairro\\Editar.cshtml",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Bairro\\Editar.cshtml",
-              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Bairro\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Bairro\\Editar.cshtml",
               "RelativeToolTip": "PrjFinanceiro\\Views\\Bairro\\Editar.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -465,11 +749,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 42,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Bairro\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Bairro\\Index.cshtml",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Views\\Bairro\\Index.cshtml",
-              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Bairro\\Index.cshtml",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Views\\Bairro\\Index.cshtml",
               "RelativeToolTip": "PrjFinanceiro\\Views\\Bairro\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -477,11 +761,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 40,
               "Title": "BairroController.cs",
-              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\BairroController.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\BairroController.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\BairroController.cs",
-              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\BairroController.cs",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\BairroController.cs",
               "RelativeToolTip": "PrjFinanceiro\\Controllers\\BairroController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -490,11 +774,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 41,
               "Title": "FuncionarioController.cs",
-              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\FuncionarioController.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\FuncionarioController.cs",
               "RelativeDocumentMoniker": "PrjFinanceiro\\Controllers\\FuncionarioController.cs",
-              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\FuncionarioController.cs",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\sistemafinanceiro\\AppMVC\\PrjFinanceiroSLN\\PrjFinanceiro\\Controllers\\FuncionarioController.cs",
               "RelativeToolTip": "PrjFinanceiro\\Controllers\\FuncionarioController.cs",
               "ViewState": "AgIAAEAAAAAAAAAAAAAMwFAAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

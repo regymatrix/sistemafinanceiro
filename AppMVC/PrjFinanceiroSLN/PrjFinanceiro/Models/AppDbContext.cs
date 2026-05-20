@@ -19,6 +19,9 @@ namespace PrjFinanceiro.Models
 
         public DbSet<Etnia> Etnia { get; set; }
 
+        public DbSet<Cliente> Cliente { get; set; }
+        public DbSet<ContaBancaria> ContaBancaria { get; set; }
+
 
 
     }
