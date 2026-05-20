@@ -62,10 +62,7 @@ namespace PrjFinanceiro.Controllers
 
             _context.SaveChanges();
 
-            return CreatedAtAction(
-                nameof(BuscarPorId),
-                new { id = novaCidade.Codigo },
-                novaCidade
+            return CreatedAtAction(nameof(BuscarPorId),new { id = novaCidade.Codigo },novaCidade
             );
         }
 
