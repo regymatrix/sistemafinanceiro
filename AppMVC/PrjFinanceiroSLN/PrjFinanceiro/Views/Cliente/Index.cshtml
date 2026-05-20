@@ -1,0 +1,54 @@
+﻿@model IEnumerable<PrjFinanceiro.Models.Cliente>
+
+<div class="container mt-5">
+    <h2>Lista de Clientes</h2>
+    <a href="/Cliente/Criar" class="btn btn-success mb-3">Novo Cliente</a>
+
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Tipo</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model) {
+                <tr>
+                    <td>@item.Nome</td>
+                    <td>@item.Tipo</td>
+                    <td>
+                        <a href="/Cliente/Editar/@item.Codigo" class="btn btn-sm btn-primary">Editar</a>
+                        <button class="btn btn-sm btn-danger" onclick="abrirModalExcluir(@item.Codigo, '@item.Nome')">Excluir</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<div class="modal fade" id="modalExcluir" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form action="/Cliente/Excluir" method="post">
+                <div class="modal-header"><h5>Confirmar Exclusão</h5></div>
+                <div class="modal-body">
+                    <input type="hidden" name="codigo" id="codigoExcluir" />
+                    <p>Deseja excluir <strong id="nomeItem"></strong>?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
+                    <button type="submit" class="btn btn-danger">Excluir</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    function abrirModalExcluir(id, nome) {
+        document.getElementById('codigoExcluir').value = id;
+        document.getElementById('nomeItem').innerText = nome;
+        new bootstrap.Modal(document.getElementById('modalExcluir')).show();
+    }
+</script>

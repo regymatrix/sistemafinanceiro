@@ -1,0 +1,16 @@
+﻿@model PrjFinanceiro.Models.Cliente
+
+<div class="container mt-5">
+    <div class="card border-danger shadow">
+        <div class="card-header bg-danger text-white"><h2>Excluir Cliente</h2></div>
+        <div class="card-body">
+            <h4 class="text-danger">Deseja realmente excluir @Model.Nome?</h4>
+            <hr />
+            <form action="/Cliente/ExcluirConfirmado" method="post">
+                <input type="hidden" name="codigo" value="@Model.Codigo" />
+                <button type="submit" class="btn btn-danger">Confirmar Exclusão</button>
+                <a href="/Cliente/Index" class="btn btn-secondary">Cancelar</a>
+            </form>
+        </div>
+    </div>
+</div>

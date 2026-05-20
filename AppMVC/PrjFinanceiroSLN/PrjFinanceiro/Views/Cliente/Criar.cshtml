@@ -1,0 +1,40 @@
+﻿@model PrjFinanceiro.DTOs.ClienteCreateDto
+
+<div class="container mt-5">
+    <div class="card shadow">
+        <div class="card-header bg-success text-white"><h2>Novo Cliente</h2></div>
+        <div class="card-body">
+            <form action="/Cliente/Criar" method="post">
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label>Nome</label>
+                        <input type="text" name="nome" class="form-control" required />
+                    </div>
+                    <div class="col-md-3">
+                        <label>Data</label>
+                        <input type="date" name="data" class="form-control" required />
+                    </div>
+                    <div class="col-md-3">
+                        <label>Tipo</label>
+                        <select name="tipo" class="form-select" id="selTipo">
+                            <option value="Fisica">Pessoa Física</option>
+                            <option value="Juridica">Pessoa Jurídica</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-6" id="fCPF"><label>CPF</label><input type="text" name="cpf" class="form-control mask-cpf" /></div>
+                    <div class="col-md-6" id="fCNPJ" style="display:none"><label>CNPJ</label><input type="text" name="cnpj" class="form-control mask-cnpj" /></div>
+                </div>
+                <button type="submit" class="btn btn-primary">Salvar</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.getElementById('selTipo').addEventListener('change', function() {
+        document.getElementById('fCPF').style.display = this.value == 'Fisica' ? 'block' : 'none';
+        document.getElementById('fCNPJ').style.display = this.value == 'Juridica' ? 'block' : 'none';
+    });
+</script>

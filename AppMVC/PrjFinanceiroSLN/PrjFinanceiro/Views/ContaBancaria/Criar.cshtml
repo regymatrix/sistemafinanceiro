@@ -1,0 +1,56 @@
+﻿@model PrjFinanceiro.Models.ContaBancaria
+
+<div class="container mt-5">
+    <div class="card shadow">
+        <div class="card-header bg-success text-white"><h2>Nova Conta Bancária</h2></div>
+        <div class="card-body">
+            <form action="/ContaBancaria/Criar" method="post">
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label>Apelido da Conta</label>
+                        <input type="text" name="nome" class="form-control" required />
+                    </div>
+                    <div class="col-md-6">
+                        <label>Número da Conta</label>
+                        <input type="text" name="numeroConta" class="form-control" required />
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <label>Data de Abertura</label>
+                        <input type="date" name="data" class="form-control" required />
+                    </div>
+                    <div class="col-md-4">
+                        <label>Tipo de Conta</label>
+                        <select name="tipoConta" class="form-select">
+                            <option value="Corrente">Corrente</option>
+                            <option value="Poupanca">Poupança</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <label>Status</label>
+                        <select name="statusConta" class="form-select">
+                            <option value="true">Ativa</option>
+                            <option value="false">Inativa</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label>Cliente Titular</label>
+                        <select name="codigoCliente" class="form-select" required>
+                            @foreach (var c in ViewBag.Clientes) {
+                                <option value="@c.Codigo">@c.Nome</option>
+                            }
+                        </select>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Salvar Conta</button>
+                <a href="/ContaBancaria/Index" class="btn btn-secondary">Voltar</a>
+            </form>
+        </div>
+    </div>
+</div>

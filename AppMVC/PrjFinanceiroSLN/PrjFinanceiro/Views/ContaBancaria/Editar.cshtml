@@ -1,0 +1,56 @@
+﻿@model PrjFinanceiro.Models.ContaBancaria
+
+<div class="container mt-5">
+    <h2>Editar Conta Bancária</h2>
+    <hr />
+    <form action="/ContaBancaria/Editar" method="post">
+        <input type="hidden" name="codigo" value="@Model.Codigo" />
+
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label class="form-label">Apelido/Nome da Conta</label>
+                <input type="text" name="nome" class="form-control" value="@Model.Nome" required />
+            </div>
+            <div class="col-md-6">
+                <label class="form-label">Número da Conta</label>
+                <input type="text" name="numeroConta" class="form-control" value="@Model.NumeroConta" required />
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-4">
+                <label class="form-label">Data de Abertura</label>
+                <input type="date" name="data" class="form-control" value="@Model.DataNascimento.ToString("yyyy-MM-dd")" required />
+            </div>
+            <div class="col-md-4">
+                <label class="form-label">Tipo de Conta</label>
+                <select name="tipoConta" class="form-select">
+                    <option value="Corrente" selected="@(Model.TipoConta == "Corrente")">Corrente</option>
+                    <option value="Poupanca" selected="@(Model.TipoConta == "Poupanca")">Poupança</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <label class="form-label">Status</label>
+                <select name="statusConta" class="form-select">
+                    <option value="true" selected="@(Model.StatusConta == true)">Ativa</option>
+                    <option value="false" selected="@(Model.StatusConta == false)">Inativa</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label class="form-label">Titular (Cliente)</label>
+                <select name="codigoCliente" class="form-select">
+                    @foreach (var c in ViewBag.Clientes)
+                    {
+                        <option value="@c.Codigo" selected="@(c.Codigo == Model.CodigoCliente)">@c.Nome</option>
+                    }
+                </select>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Atualizar Conta</button>
+        <a href="/ContaBancaria/Index" class="btn btn-secondary">Cancelar</a>
+    </form>
+</div>

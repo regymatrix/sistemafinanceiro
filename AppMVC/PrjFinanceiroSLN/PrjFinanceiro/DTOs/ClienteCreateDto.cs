@@ -1,22 +1,21 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
-namespace PrjFinanceiro.Models
+namespace PrjFinanceiro.DTOs
 {
-    [Table("Cliente")]
-    public class Cliente
+    public class ClienteCreateDto
     {
-        [Key]
-        public int Codigo { get; set; }
+        [Required(ErrorMessage = "Nome é obrigatório")]
         public string Nome { get; set; }
+
+        [Required(ErrorMessage = "Data é obrigatória")]
         public DateTime DataNascimento { get; set; }
+
+        [Required(ErrorMessage = "Tipo é obrigatório")]
         public string Tipo { get; set; }
+
         public string CPF { get; set; }
         public string CNPJ { get; set; }
         public int? CodigoBairro { get; set; }
-
-        [ForeignKey("CodigoBairro")]
-        public virtual Bairro BairroRel { get; set; }
     }
 }
