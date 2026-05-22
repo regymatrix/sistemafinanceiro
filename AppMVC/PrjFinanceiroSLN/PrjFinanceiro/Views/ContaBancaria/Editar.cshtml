@@ -1,0 +1,53 @@
+﻿@model PrjFinanceiro.Models.ContaBancaria
+
+<div class="container mt-5">
+    <div class="card shadow">
+        <div class="card-header bg-primary text-white">
+            <h2 class="mb-0">Editar Conta Bancária</h2>
+        </div>
+        <div class="card-body">
+            <form action="/ContaBancaria/Editar" method="post">
+
+                <input type="hidden" name="Codigo" value="@Model.Codigo" />
+
+                <div class="row">
+                    <div class="form-group col-md-6 mb-3">
+                        <label for="CodigoCliente" class="form-label">Código do Cliente</label>
+                        <input type="number" id="CodigoCliente" name="CodigoCliente" class="form-control" value="@Model.CodigoCliente" required />
+                    </div>
+
+                    <div class="form-group col-md-6 mb-3">
+                        <label for="CodigoAgencia" class="form-label">Código da Agência</label>
+                        <input type="number" id="CodigoAgencia" name="CodigoAgencia" class="form-control" value="@Model.CodigoAgencia" required />
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="form-group col-md-6 mb-3">
+                        <label for="NumeroConta" class="form-label">Número da Conta</label>
+                        <input type="text" id="NumeroConta" name="NumeroConta" class="form-control" value="@Model.NumeroConta" required />
+                    </div>
+
+                    <div class="form-group col-md-6 mb-3">
+                        <label for="TipoConta" class="form-label">Tipo da Conta</label>
+                        <input type="text" id="TipoConta" name="TipoConta" class="form-control" value="@Model.TipoConta" required />
+                    </div>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="StatusConta" class="form-label">Status da Conta</label>
+                    <select id="StatusConta" name="StatusConta" class="form-control" required>
+                        <option value="true" selected="@(Model.StatusConta == true ? "selected" : null)">Ativa</option>
+                        <option value="false" selected="@(Model.StatusConta == false ? "selected" : null)">Inativa</option>
+                    </select>
+                </div>
+
+                <div class="form-group mt-4 text-end">
+                    <a href="/ContaBancaria/Index" class="btn btn-secondary">Cancelar</a>
+                    <button type="submit" class="btn btn-primary">Salvar Alterações</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,46 @@
+﻿@model PrjFinanceiro.Models.ContaBancaria
+
+<div class="container mt-5">
+    <div class="card border-danger shadow">
+        <div class="card-header bg-danger text-white">
+            <h2 class="mb-0">Excluir Conta Bancária</h2>
+        </div>
+        <div class="card-body">
+            <h4 class="text-danger mb-4">Tem certeza que deseja excluir esta Conta Bancária?</h4>
+            <hr />
+
+            <dl class="row">
+                <dt class="col-sm-3 fw-bold">Código Interno:</dt>
+                <dd class="col-sm-9">@Model.Codigo</dd>
+
+                <dt class="col-sm-3 fw-bold">Código do Cliente:</dt>
+                <dd class="col-sm-9">@Model.CodigoCliente</dd>
+
+                <dt class="col-sm-3 fw-bold">Código da Agência:</dt>
+                <dd class="col-sm-9">@Model.CodigoAgencia</dd>
+
+                <dt class="col-sm-3 fw-bold">Número da Conta:</dt>
+                <dd class="col-sm-9">@Model.NumeroConta</dd>
+
+                <dt class="col-sm-3 fw-bold">Tipo da Conta:</dt>
+                <dd class="col-sm-9">@Model.TipoConta</dd>
+
+                <dt class="col-sm-3 fw-bold">Status da Conta:</dt>
+                <dd class="col-sm-9">
+                    <span class="badge @(Model.StatusConta ? "bg-success" : "bg-secondary")">
+                        @(Model.StatusConta ? "Ativa" : "Inativa")
+                    </span>
+                </dd>
+            </dl>
+
+            <form action="/ContaBancaria/ExcluirConfirmado" method="post" class="mt-4">
+                <input type="hidden" name="Codigo" value="@Model.Codigo" />
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-danger">Sim, Excluir</button>
+                    <a href="/ContaBancaria/Index" class="btn btn-secondary">Cancelar</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
