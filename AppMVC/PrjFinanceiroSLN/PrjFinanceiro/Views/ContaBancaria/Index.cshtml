@@ -1,0 +1,104 @@
+﻿@model IEnumerable<PrjFinanceiro.Models.ContaBancaria>
+
+<div class="container mt-5">
+    <h2 class="mb-4">Lista de Contas Bancárias -  @ViewBag.nomesenaii</h2>
+
+    <p>
+        <a href="/ContaBancaria/Criar" class="btn btn-success">Cadastrar Nova Conta Bancária</a>
+    </p>
+
+    <table class="table table-bordered table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th>Código Cliente</th>
+                <th>Código Agência</th>
+                <th>Número Conta</th>
+                <th>Status Conta</th>
+                <th>Tipo Conta</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr id="linha-@item.CodigoCliente">
+                    <td>@item.CodigoCliente</td>
+                    <td>@item.CodigoAgencia</td>
+                    <td>@item.NumeroConta</td>
+                    <td>@item.StatusConta</td>
+                    <td>@item.TipoConta</td>
+
+                    <td>
+                        <a href="/ContaBancaria/Editar/@item.CodigoCliente" class="btn btn-sm btn-primary">Editar</a>
+
+                        <button type="button" class="btn btn-danger"
+                                onclick="abrirModalExcluir(@item.CodigoCliente, '@item.NumeroConta')">
+                            Excluir
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<div class="modal fade" id="modalExcluir" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Confirmar Exclusão</h5>
+            </div>
+
+            <div class="modal-body">
+                <p>Tem certeza que deseja excluir a conta <strong id="nomeClienteModal"></strong>?</p>
+
+                <input type="hidden" id="idClienteExcluir" />
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+
+                <button type="button" class="btn btn-danger" onclick="confirmarExclusao()">
+                    Sim, Excluir
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Função para preparar o modal com os dados da conta selecionada
+    function abrirModalExcluir(id, nome) {
+        $('#idClienteExcluir').val(id);
+        $('#nomeClienteModal').text(nome);
+        $('#modalExcluir').modal('show');
+    }
+
+    // Função que envia a requisição para o C#
+    function confirmarExclusao() {var id = $('#idClienteExcluir').val();
+
+        $.ajax({
+            url: '/ContaBancaria/ExcluirConfirmadoModal', type: 'POST', data: { codigo: id },
+
+            success: function (result) {
+                if (result.success) {
+
+                    // Fecha o modal
+                    $('#modalExcluir').modal('hide');
+
+                    // Remove a linha da tabela com um efeito suave
+                    $('#linha-' + id).fadeOut(500, function () {
+                        $(this).remove();
+                    });
+
+                } else {
+                    alert(result.message);
+                }
+            },
+
+            error: function () {
+                alert("Erro técnico ao tentar excluir.");
+            }
+        });
+    }
+</script>

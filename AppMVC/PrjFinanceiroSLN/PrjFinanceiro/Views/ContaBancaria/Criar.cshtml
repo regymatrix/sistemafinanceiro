@@ -1,0 +1,49 @@
+﻿@model PrjFinanceiro.Models.ContaBancaria
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header bg-success text-white">
+            <h2>Cadastrar Nova Conta Bancária</h2>
+        </div>
+
+        <div class="card-body">
+            <form action="/ContaBancaria/Criar" method="post">
+
+                <div class="form-group mb-3">
+                    <label for="codigoCliente">Código do Cliente</label>
+                    <input type="number" id="codigoCliente" name="codigoCliente" class="form-control" required />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="codigoAgencia">Código da Agência</label>
+                    <input type="number" id="codigoAgencia" name="codigoAgencia" class="form-control" required />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="numeroConta">Número da Conta</label>
+                    <input type="text" id="numeroConta" name="numeroConta" class="form-control" required />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="statusConta">Status da Conta</label>
+                    <select id="statusConta" name="statusConta" class="form-control" required>
+                        <option value="">Selecione</option>
+                        <option value="true">Ativa</option>
+                        <option value="false">Inativa</option>
+                    </select>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="tipoConta">Tipo da Conta</label>
+                    <input type="text" id="tipoConta" name="tipoConta" class="form-control" required />
+                </div>
+
+                <div class="form-group mt-4">
+                    <button type="submit" class="btn btn-primary">Salvar Conta</button>
+                    <a href="/ContaBancaria/Index" class="btn btn-secondary">Voltar para a Lista</a>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
